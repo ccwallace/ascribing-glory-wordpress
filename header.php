@@ -27,7 +27,7 @@
 
 <body <?php body_class(); ?>>
 	<header>
-		<img src="assets/images/rainbow-pens-nobg.png" alt="">
+		<img src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-nobg.png" alt="">
 
 	</header>
 
