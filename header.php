@@ -27,7 +27,7 @@
 
 <body <?php body_class(); ?>>
 	<header>
-		<img src="/assets/images/rainbow-pens-nobg.png" alt="">
+		<img src="assets/images/rainbow-pens-nobg.png" alt="">
 
 	</header>
 
