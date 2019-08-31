@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <img src="assets/img/rainbow-pens-nogb.png" alt="" class="col s12">
+    <img src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-nobg-e1567262239643.png" alt="" class="col s12">
 
 
     <!--Import jQuery before materialize.js-->
