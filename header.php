@@ -20,7 +20,7 @@
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-				
+
 
 <?php wp_head(); ?>
 </head>
@@ -52,6 +52,7 @@
 		 */
 		do_action( 'storefront_header' );
 		?>
+		<p>This is a P-tag in the child theme header!!</p>
 
 	</header><!-- #masthead -->
 
