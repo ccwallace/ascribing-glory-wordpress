@@ -31,7 +31,8 @@
 
 <div id="page" class="hfeed site">
 	<?php do_action( 'storefront_before_header' ); ?>
-
+	<p>This is a P-tag in the child theme header!!</p>
+	<div class="col s12">This div is 12-columns wide on all screen sizes</div>
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
 
 		<?php
@@ -52,8 +53,7 @@
 		 */
 		do_action( 'storefront_header' );
 		?>
-		<p>This is a P-tag in the child theme header!!</p>
-		<div class="col s12">This div is 12-columns wide on all screen sizes</div>
+
 
 	</header><!-- #masthead -->
 
