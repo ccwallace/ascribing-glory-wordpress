@@ -53,6 +53,7 @@
 		do_action( 'storefront_header' );
 		?>
 		<p>This is a P-tag in the child theme header!!</p>
+		<div class="col s12">This div is 12-columns wide on all screen sizes</div>
 
 	</header><!-- #masthead -->
 
