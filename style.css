@@ -4,27 +4,9 @@
  Description:  Storefront Child Theme - Ascribing Glory
  Author:       Caleb Wallace
  Author URI:   http://ascribingglory.com
- Template:     storefront
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:
- Text Domain:  storefront
+ Text Domain:  ascribing-glory
 */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1)  {
-
-  #rainbow-pens{
-    max-width: 65%
-  }
-}
-
-/* ----------- Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-}
