@@ -27,7 +27,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body>
 
 		<div class="container">
 			<img class="responsive-img" id="rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-nobg-e1567262239643.png" alt="Rainbow Pens Image">
