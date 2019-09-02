@@ -34,7 +34,7 @@
       <a href="/home"><img class="responsive-img ag-logo-main" src="<?php echo esc_url(get_template_directory_uri() . '/img/ag-logo-transparent.png'); ?>"></img></a>
     </div>
   </div>
-  <nav class="nav-extended">
+  <nav class="nav-extended z-depth-0">
     <!--  THIS IS FOR THE USER MENU OPEN ON FULL SCREEN
     <div class="nav-wrapper blue-custom lighten-2">
       <?php materialize_template_the_custom_logo(); ?>
