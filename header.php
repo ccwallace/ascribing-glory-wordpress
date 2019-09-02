@@ -1,17 +1,6 @@
 <?php
 /**
- *
- *
- *  Materialize Template <http://wordpress.org>
- *
- *  By KRATZ Geoffrey AKA Jul6art AKA VanIllaSkype
- *  for VsWeb <https://vsweb.be>
- *
- *  https://vsweb.be
- *  admin@vsweb.be
- *
- *  Special thanks to Brynnlow
- *  for his contribution
+ *  Based on Materialize Template <http://wordpress.org>
  *
  *  It is free software; you can redistribute it and/or modify it under
  *  the terms of the GNU General Public License, either version 2
@@ -19,16 +8,6 @@
  *
  *  For the full copyright and license information, please read the
  *  LICENSE.txt file that was distributed with this source code.
- *
- *  The flex one, in a flex world
- *
- *     __    __    ___            __    __    __   ____
- *     \ \  / /   / __|           \ \  /  \  / /  |  __\   __
- *      \ \/ / _  \__ \  _         \ \/ /\ \/ /   |  __|  |  _\
- *       \__/ (_) |___/ (_)         \__/  \__/    |  __/  |___/
- *
- *                    https://vsweb.be
- *
  */
 ?>
 <!DOCTYPE html>
@@ -48,9 +27,7 @@
 <body <?php body_class(); ?>>
 <header>
     <nav class="nav-extended blue-custom">
-        <div class="nav-wrapper">
-	        <?php get_search_form() ?>
-        </div>
+        
         <div class="nav-wrapper blue-custom lighten-2">
             <?php materialize_template_the_custom_logo(); ?>
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">
