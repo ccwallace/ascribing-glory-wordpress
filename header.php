@@ -26,28 +26,23 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
-    <nav class="nav-extended blue-custom">
-        
-        <div class="nav-wrapper blue-custom lighten-2">
-            <?php materialize_template_the_custom_logo(); ?>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">
-                <?php bloginfo("name"); ?>
-            </a>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <?php if (current_user_can('manage_options')) : ?>
-                    <li><a href="<?php echo esc_url( get_admin_url() ); ?>"><i class="material-icons">view_module</i></a></li>
-                <?php endif; ?>
-                <li><a href="#!" data-activates="slide-out" class="profile-menu"><i class="material-icons">more_vert</i></a></li>
-            </ul>
+  <nav class="nav-extended blue-custom">
+    <div class="nav-wrapper blue-custom lighten-2">
+        <?php materialize_template_the_custom_logo(); ?>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">
+            <?php bloginfo("name"); ?>
+        </a>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="#!" data-activates="slide-out" class="profile-menu"><i class="material-icons">more_vert</i></a></li>
+        </ul>
+    </div>
+    <?php if ( has_nav_menu( 'main' ) ) : ?>
+        <div class="nav-wrapper hide-on-med-and-down">
+            <?php wp_nav_menu( array('theme_location' => 'main')); ?>
         </div>
-
-        <?php if ( has_nav_menu( 'main' ) ) : ?>
-            <div class="nav-wrapper hide-on-med-and-down">
-                <?php wp_nav_menu( array('theme_location' => 'main')); ?>
-            </div>
-        <?php endif; ?>
-    </nav>
+    <?php endif; ?>
+  </nav>
 
     <div class="side-nav" id="mobile-menu">
         <h4 class="black-text truncate center-align"><?php bloginfo("name") ?></h4>
