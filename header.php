@@ -45,7 +45,7 @@
     </div>
   -->
     <?php if ( has_nav_menu( 'main' ) ) : ?>
-      <div class="nav-wrapper hide-on-med-and-down white black-text">
+      <div class="nav-wrapper hide-on-med-and-down white black-text nav-center">
           <?php wp_nav_menu( array('theme_location' => 'main')); ?>
       </div>
     <?php endif; ?>
