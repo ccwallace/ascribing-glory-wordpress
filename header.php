@@ -26,6 +26,14 @@
 </head>
 <body <?php body_class(); ?>>
 <header>
+  <div class="row">
+    <div class="col s12">
+      <img class="responsive-img rainbow-pens" src="<?php echo esc_url(get_template_directory_uri() . '/img/rainbow-pens-doubled.png'); ?>" alt="Rainbow Pens"></img>
+    </div>
+    <div class="col s6 push-s3">
+      
+    </div>
+  </div>
   <nav class="nav-extended blue-custom">
     <div class="nav-wrapper blue-custom lighten-2">
         <?php materialize_template_the_custom_logo(); ?>
