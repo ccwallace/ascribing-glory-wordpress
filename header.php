@@ -31,7 +31,7 @@
       <img class="responsive-img rainbow-pens" src="<?php echo esc_url(get_template_directory_uri() . '/img/rainbow-pens-doubled.png'); ?>" alt="Rainbow Pens"></img>
     </div>
     <div class="col s6 push-s3">
-
+      <img class="responsive-img ag-logo-main" src="<?php echo esc_url(get_template_directory_uri() . '/img/ag-logo-transparent.png'); ?>"></img>
     </div>
   </div>
   <nav class="nav-extended blue-custom">
