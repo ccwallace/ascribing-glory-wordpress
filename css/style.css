@@ -65,7 +65,7 @@
    text-align: center;
 }
 .nav-center ul li {
-   
+   display: inline;
    float: none;
 }
 .nav-center ul li a {
