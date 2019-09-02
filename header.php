@@ -36,35 +36,33 @@
   </div>
   <nav class="nav-extended blue-custom">
     <div class="nav-wrapper blue-custom lighten-2">
-        <?php materialize_template_the_custom_logo(); ?>
-
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="#!" data-activates="slide-out" class="profile-menu"><i class="material-icons">more_vert</i></a></li>
-        </ul>
+      <?php materialize_template_the_custom_logo(); ?>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#!" data-activates="slide-out" class="profile-menu"><i class="material-icons">menu</i></a></li>
+      </ul>
     </div>
     <?php if ( has_nav_menu( 'main' ) ) : ?>
-        <div class="nav-wrapper hide-on-med-and-down">
-            <?php wp_nav_menu( array('theme_location' => 'main')); ?>
-        </div>
+      <div class="nav-wrapper hide-on-med-and-down">
+          <?php wp_nav_menu( array('theme_location' => 'main')); ?>
+      </div>
     <?php endif; ?>
   </nav>
+  <div class="side-nav" id="mobile-menu">
+      <h4 class="black-text truncate center-align"><?php bloginfo("name") ?></h4>
+	<?php if ( has_nav_menu( 'main' ) ) : ?>
+		<?php wp_nav_menu( array('theme_location' => 'main')); ?>
+	<?php endif; ?>
 
-    <div class="side-nav" id="mobile-menu">
-        <h4 class="black-text truncate center-align"><?php bloginfo("name") ?></h4>
-		<?php if ( has_nav_menu( 'main' ) ) : ?>
-			<?php wp_nav_menu( array('theme_location' => 'main')); ?>
-		<?php endif; ?>
-
-		<?php if ( has_nav_menu( 'actions_mobile' ) ) : ?>
-            <div class="fixed-action-btn horizontal click-to-toggle hide-on-large-only">
-                <a class="btn-floating btn-large grey pulse">
-                    <i class="material-icons">more_vert</i>
-                </a>
-				<?php wp_nav_menu( array('theme_location' => 'actions_mobile', 'container' => '')); ?>
-            </div>
-		<?php endif; ?>
-    </div>
+	<?php if ( has_nav_menu( 'actions_mobile' ) ) : ?>
+          <div class="fixed-action-btn horizontal click-to-toggle hide-on-large-only">
+              <a class="btn-floating btn-large grey pulse">
+                  <i class="material-icons">more_vert</i>
+              </a>
+			<?php wp_nav_menu( array('theme_location' => 'actions_mobile', 'container' => '')); ?>
+          </div>
+	<?php endif; ?>
+  </div>
 
     <ul id="slide-out" class="side-nav">
         <li>
