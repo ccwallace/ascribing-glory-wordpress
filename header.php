@@ -46,6 +46,7 @@
   -->
     <?php if ( has_nav_menu( 'main' ) ) : ?>
       <div class="nav-wrapper hide-on-med-and-down white black-text nav-center">
+        <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
           <?php wp_nav_menu( array('theme_location' => 'main')); ?>
       </div>
     <?php endif; ?>
