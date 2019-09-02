@@ -39,9 +39,6 @@
     <div class="nav-wrapper blue-custom lighten-2">
       <?php materialize_template_the_custom_logo(); ?>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#!" data-activates="slide-out" class="profile-menu"><i class="material-icons">menu</i></a></li>
-      </ul>
     </div>
     <?php if ( has_nav_menu( 'main' ) ) : ?>
       <div class="nav-wrapper hide-on-med-and-down white black-text nav-center">
