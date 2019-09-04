@@ -44,7 +44,7 @@
             <?php wp_nav_menu( array('theme_location' => 'main')); ?>
         </div>
       <?php endif; ?>
-      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse fixed right"><i class="material-icons">menu</i></a>
     </div>
   </nav>
   <div class="side-nav" id="mobile-menu">
