@@ -46,47 +46,49 @@
       <?php endif; ?>
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" data-activates="mobile-menu" class="button-collapse fixed right"><i class="material-icons">menu</i></a>
     </div>
-  </nav>
-  <div class="side-nav" id="mobile-menu">
-      <h4 class="black-text truncate center-align"><?php bloginfo("name") ?></h4>
-	<?php if ( has_nav_menu( 'main' ) ) : ?>
-		<?php wp_nav_menu( array('theme_location' => 'main')); ?>
-	<?php endif; ?>
 
-	<?php if ( has_nav_menu( 'actions_mobile' ) ) : ?>
-          <div class="fixed-action-btn horizontal click-to-toggle hide-on-large-only">
-              <a class="btn-floating btn-large grey pulse">
-                  <i class="material-icons">more_vert</i>
-              </a>
-			<?php wp_nav_menu( array('theme_location' => 'actions_mobile', 'container' => '')); ?>
-          </div>
-	<?php endif; ?>
-  </div>
+    <div class="side-nav" id="mobile-menu">
+        <h4 class="black-text truncate center-align"><?php bloginfo("name") ?></h4>
+    <?php if ( has_nav_menu( 'main' ) ) : ?>
+      <?php wp_nav_menu( array('theme_location' => 'main')); ?>
+    <?php endif; ?>
 
-    <ul id="slide-out" class="side-nav">
-        <li>
-            <div class="user-view">
-				<?php
-				global $current_user;
-				wp_get_current_user();
-				?>
-                <div class="background">
-                    <img src="<?php echo esc_url(get_template_directory_uri() . '/img/profile-bg.jpg'); ?>">
-                </div>
-                <a href="<?php echo esc_url( get_edit_user_link( $current_user->ID ) ); ?>"><img class="circle" src="<?php echo esc_url( get_avatar_url( $current_user->ID )); ?>"></a>
-                <a href="<?php echo esc_url( get_edit_user_link( $current_user->ID ) ); ?>"><span class="white-text text-lighten-2 name"><?php echo esc_attr($current_user->display_name); ?></span></a>
-                <a href="<?php echo esc_url( get_edit_user_link( $current_user->ID ) ); ?>"><span class="white-text text-lighten-3 email"><?php echo esc_attr($current_user->user_email); ?></span></a>
+    <?php if ( has_nav_menu( 'actions_mobile' ) ) : ?>
+            <div class="fixed-action-btn horizontal click-to-toggle hide-on-large-only">
+                <a class="btn-floating btn-large grey pulse">
+                    <i class="material-icons">more_vert</i>
+                </a>
+        <?php wp_nav_menu( array('theme_location' => 'actions_mobile', 'container' => '')); ?>
             </div>
-        </li>
-		<?php if ( has_nav_menu( 'profile_1' ) ) : ?>
-			<?php wp_nav_menu( array('theme_location' => 'profile_1')); ?>
-		<?php endif; ?>
-        <li>
-            <div class="divider"></div>
-        </li>
-		<?php if ( has_nav_menu( 'profile_2' ) ) : ?>
-			<?php wp_nav_menu( array('theme_location' => 'profile_2')); ?>
-		<?php endif; ?>
-    </ul>
+    <?php endif; ?>
+    </div>
+
+      <ul id="slide-out" class="side-nav">
+          <li>
+              <div class="user-view">
+          <?php
+          global $current_user;
+          wp_get_current_user();
+          ?>
+                  <div class="background">
+                      <img src="<?php echo esc_url(get_template_directory_uri() . '/img/profile-bg.jpg'); ?>">
+                  </div>
+                  <a href="<?php echo esc_url( get_edit_user_link( $current_user->ID ) ); ?>"><img class="circle" src="<?php echo esc_url( get_avatar_url( $current_user->ID )); ?>"></a>
+                  <a href="<?php echo esc_url( get_edit_user_link( $current_user->ID ) ); ?>"><span class="white-text text-lighten-2 name"><?php echo esc_attr($current_user->display_name); ?></span></a>
+                  <a href="<?php echo esc_url( get_edit_user_link( $current_user->ID ) ); ?>"><span class="white-text text-lighten-3 email"><?php echo esc_attr($current_user->user_email); ?></span></a>
+              </div>
+          </li>
+      <?php if ( has_nav_menu( 'profile_1' ) ) : ?>
+        <?php wp_nav_menu( array('theme_location' => 'profile_1')); ?>
+      <?php endif; ?>
+          <li>
+              <div class="divider"></div>
+          </li>
+      <?php if ( has_nav_menu( 'profile_2' ) ) : ?>
+        <?php wp_nav_menu( array('theme_location' => 'profile_2')); ?>
+      <?php endif; ?>
+      </ul>
+  </nav>
+
 
 </header>
