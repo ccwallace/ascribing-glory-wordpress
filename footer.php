@@ -85,13 +85,5 @@
 </footer>
 <a class="btn-floating btn-large grey pulse hide" id="scroll_to_top" href="#!"><i class="material-icons">expand_less</i></a>
 <?php wp_footer(); ?>
-<script type="text/javascript">
-  $( document ).ready(function(){
-    $(".button-collapse").sideNav({
-      edge:'right'
-    });
-  })
-</script>
-
 </body>
 </html>
