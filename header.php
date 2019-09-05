@@ -34,7 +34,7 @@
 					<a href="/home">
 						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 					</a>
-					<a href="#" data-activates="mobile-demo" class="button-collapse fixed right col s11"><i class="material-icons black-text">menu</i></a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse fixed right col s1 push-s7"><i class="material-icons black-text">menu</i></a>
 				</div>
 			</div>
 		</div>
@@ -42,7 +42,7 @@
 		<!--BEGIN NAVIGATION -->
 		<nav class="z-depth-0">
       <div class="nav-wrapper white">
-        <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
+        <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
         <div class="nav-center">
           <ul class="hide-on-med-and-down">
             <li><a class="black-text" href="/home">Home</a></li>
