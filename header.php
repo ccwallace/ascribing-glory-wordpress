@@ -33,26 +33,25 @@
       <img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
     </div>
   </div>
-  <nav class="z-depth-0">
-    <div class="nav-wrapper white">
-      <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
-      <div class="nav-center">
-        <ul class="hide-on-med-and-down">
-          <li><a class="black-text" href="sass.html">Home</a></li>
-          <li><a class="black-text" href="badges.html">About</a></li>
-          <li><a class="black-text" href="collapsible.html">Weddings</a></li>
-          <li><a class="black-text" href="mobile.html">Resources</a></li>
-          <li><a class="black-text" href="mobile.html">Shop</a></li>
-          <li><a class="black-text" href="mobile.html">Contact</a></li>
-        </ul>
+  <header>
+      <div class="navbar-fixed">
+          <nav>
+              <div class="nav-wrapper"> <a href="#!" class="brand-logo">Logo</a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                  <ul class="right hide-on-med-and-down">
+                      <li><a href="sass.html">Sass</a></li>
+                      <li><a href="badges.html">Components</a></li>
+                      <li><a href="collapsible.html">Javascript</a></li>
+                      <li><a href="mobile.html">Mobile</a></li>
+                  </ul>
+              </div>
+          </nav>
       </div>
-      <ul class="side-nav right-aligned" id="mobile-demo">
-        <li><a href="sass.html">Home</a></li>
-        <li><a href="badges.html">About</a></li>
-        <li><a href="collapsible.html">Weddings</a></li>
-        <li><a href="mobile.html">Resources</a></li>
-        <li><a href="mobile.html">Shop</a></li>
-        <li><a href="mobile.html">Contact</a></li>
+     <!-- Move the sidenav outside of .navbar-fixed -->
+      <ul class="side-nav" id="mobile-demo">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">Javascript</a></li>
+          <li><a href="mobile.html">Mobile</a></li>
       </ul>
-    </div>
-  </nav>
+  </header>
