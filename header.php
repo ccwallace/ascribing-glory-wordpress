@@ -50,10 +50,8 @@
 						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 					</a>
 				</div>
-				<div class="col s10">
+				<div class="col s1 offset-s6">
 					<a class="black-text material-icons main-mobile-menu-btn" href="/cart">shopping_cart</a>
-				</div>
-				<div class="col s11">
 					<nav class="transparent z-depth-0">
 						<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
 					</nav>
