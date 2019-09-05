@@ -688,6 +688,10 @@ a:hover, a:active {
 	text-decoration: none;
 }
 
+#primar-menu{
+	color:black;
+}
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
