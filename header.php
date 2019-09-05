@@ -50,12 +50,14 @@
 						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 					</a>
 				</div>
-				<div class="col s1 offset-s6 nav-wrapper">
+				<div class="col s1 offset-s6">
 					<nav class="transparent z-depth-0">
-						<ul class="right">
-							<li><a href="/cart"><i class="material-icons black-text">shopping_cart</i></a></li>
-							<li><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a></li>
-						</ul>
+						<div class="nav-wrapper">
+							<ul class="right">
+								<li><a href="/cart"><i class="material-icons black-text">shopping_cart</i></a></li>
+								<li><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a></li>
+							</ul>
+						</div>
 					</nav>
 				</div>
 			</div>
