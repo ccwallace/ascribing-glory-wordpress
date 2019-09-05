@@ -1,29 +1,35 @@
 <?php
 /**
- * The template part for displaying results in search pages
+ * Template part for displaying results in search pages
  *
- * Learn more: {@link https://codex.wordpress.org/Template_Hierarchy}
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
+ * @package ascribing-glory
  */
+
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
 	<header class="entry-header">
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+
+		<?php if ( 'post' === get_post_type() ) : ?>
+		<div class="entry-meta">
+			<?php
+			ascribing_glory_posted_on();
+			ascribing_glory_posted_by();
+			?>
+		</div><!-- .entry-meta -->
+		<?php endif; ?>
 	</header><!-- .entry-header -->
+
+	<?php ascribing_glory_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 
-	<?php if ( 'post' == get_post_type() ) : ?>
-
-	<?php else : ?>
-
-	<?php endif; ?>
-
-</article><!-- #post-## -->
+	<footer class="entry-footer">
+		<?php ascribing_glory_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-<?php the_ID(); ?> -->

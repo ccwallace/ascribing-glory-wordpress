@@ -1,26 +1,59 @@
 <?php
+/**
+ * Template part for displaying posts
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package ascribing-glory
+ */
 
 ?>
 
-<div class="<?php if(is_sticky()){echo 'col s12 left sticky-post';}else{echo 'masonry-gallery-item';} ?>" id="<?php the_ID(); ?>">
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		<div class="card hoverable">
-			<div class="card-image waves-effect waves-block waves-light">
-				<div class="activator">
-					<?php echo materialize_template_card_image() ?>
-				</div>
-			</div>
-			<div class="card-content">
-				<span class="card-title activator grey-text text-darken-4"><?php the_title('', ''); ?><i class="material-icons right">more_vert</i></span>
-				<p><a href="<?php the_permalink(); ?>"><?php _e("read more", "materialize-template") ?></a></p>
-			</div>
-			<div class="card-reveal">
-				<span class="card-title grey-text text-darken-4"><?php the_title('', ''); ?><i class="material-icons right">close</i></span>
-				<?php the_excerpt(); ?>
-				<a href="<?php the_permalink(); ?>"><?php _e("read more", "materialize-template") ?></a>
-				<br/>
-				<br/>
-			</div>
-		</div>
-	</article>
-</div>
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<header class="entry-header">
+		<?php
+		if ( is_singular() ) :
+			the_title( '<h1 class="entry-title">', '</h1>' );
+		else :
+			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
+		endif;
+
+		if ( 'post' === get_post_type() ) :
+			?>
+			<div class="entry-meta">
+				<?php
+				ascribing_glory_posted_on();
+				ascribing_glory_posted_by();
+				?>
+			</div><!-- .entry-meta -->
+		<?php endif; ?>
+	</header><!-- .entry-header -->
+
+	<?php ascribing_glory_post_thumbnail(); ?>
+
+	<div class="entry-content">
+		<?php
+		the_content( sprintf(
+			wp_kses(
+				/* translators: %s: Name of current post. Only visible to screen readers */
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'ascribing-glory' ),
+				array(
+					'span' => array(
+						'class' => array(),
+					),
+				)
+			),
+			get_the_title()
+		) );
+
+		wp_link_pages( array(
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ascribing-glory' ),
+			'after'  => '</div>',
+		) );
+		?>
+	</div><!-- .entry-content -->
+
+	<footer class="entry-footer">
+		<?php ascribing_glory_entry_footer(); ?>
+	</footer><!-- .entry-footer -->
+</article><!-- #post-<?php the_ID(); ?> -->

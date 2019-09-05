@@ -1,34 +1,40 @@
 <?php
+/**
+ * The template for displaying all pages
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site may use a
+ * different template.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package ascribing-glory
+ */
 
 get_header();
-
-$mainDivCols = materialize_template_main_col_number();
-
-while (have_posts()) : the_post();
-
 ?>
 
-<main role="main">
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
 
-    <div class="white" style="background-color: #<?php background_color(); ?>!important; background-image: url(<?php background_image(); ?>); background-size: cover;">
-        <div class="row container">
-	        <?php get_sidebar('left-sidebar'); ?>
-            <div class="col s12 l<?php echo $mainDivCols; ?>">
-                <h2 class="header"><?php the_title(); ?></h2>
+		<?php
+		while ( have_posts() ) :
+			the_post();
 
-                <?php the_content(); ?>
+			get_template_part( 'template-parts/content', 'page' );
 
-                <?php
-                // If comments are open or we have at least one comment, load up the comment template
-                if ( comments_open() || '0' != get_comments_number() )
-                    comments_template();
-                ?>
-            </div>
-	        <?php get_sidebar('right-sidebar'); ?>
-        </div>
-    </div>
-</main>
+			// If comments are open or we have at least one comment, load up the comment template.
+			if ( comments_open() || get_comments_number() ) :
+				comments_template();
+			endif;
 
-<?php endwhile; ?>
+		endwhile; // End of the loop.
+		?>
 
-<?php get_footer(); ?>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+<?php
+get_sidebar();
+get_footer();
