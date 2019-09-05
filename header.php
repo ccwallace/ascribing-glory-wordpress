@@ -36,10 +36,10 @@
 
 		<!--BEGIN NAVIGATION -->
 		<nav class="z-depth-0">
-      <div class="nav-wrapper white">
+      <div class="nav-wrapper">
         <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
         <div class="nav-center">
-          <ul class="hide-on-med-and-down">
+          <ul class="hide-on-med-and-down black-text">
 						<?php
 						wp_nav_menu( array(
 							'theme_location' => 'menu-1',
