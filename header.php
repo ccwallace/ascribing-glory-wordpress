@@ -40,12 +40,9 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
         <div class="nav-center">
           <ul class="hide-on-med-and-down black-text">
-						<?php
-						wp_nav_menu( array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'primary-menu',
-						) );
-						?>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="brand-logo">
+                <?php bloginfo("name"); ?>
+            </a>
           </ul>
         </div>
         <ul class="side-nav right-aligned black-text" id="mobile-demo">
