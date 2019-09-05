@@ -46,35 +46,7 @@ function masonry_init($) {
  * @param $
  * @param $container
  */
-function masonry_apply($, $container) {
-    var $nbCols             = ($(window).width() > 992) ? 3 : 2;
-    $nbCols -= $('.sidebar').length;
-    var $minCols = $nbCols === 1 ? 1 : $nbCols - 1;
-    var $items              = $container.find('.masonry-gallery-item');
-    if($items.length >= 1) {
-        $items.sort(SortById);
-        var $count              = $items.length;
-        var $itemsPerCol        = Math.round($count / $nbCols);
-        var $itemsCols          = [];
 
-        for($i = 0, $offset = 0; $i < $nbCols; $i++, $offset += $itemsPerCol) {
-            $itemsCols[$i]      = $items.slice($offset, $offset + $itemsPerCol);
-        }
-
-        var $lastItems          = $items.slice($itemsPerCol * $nbCols, $count);
-
-        for($i = 0; $i < $lastItems.length; $i++) {
-            $itemsCols[$i].push($lastItems[$i]);
-        }
-
-        $container.find("div.masonry-gallery-item, div.col").remove();
-
-        for($i = 0; $i < $nbCols; $i++) {
-            $container.append('<div class="col l' + (12 / $nbCols) + ' m' + (12 / $minCols) + ' s12 left col' + ($i + 1) + '"></div>');
-            $container.children('.col' + ($i + 1)).append($itemsCols[$i]);
-        }
-    }
-}
 
 /**
  * @param a
