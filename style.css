@@ -663,7 +663,7 @@ a:hover, a:active {
 @media screen
   and (max-device-width: 990px) {
 		.main-mobile-menu-btn{
-				padding-top: 4em;
+				padding-top: 2em;
 		}
 }
 
