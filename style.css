@@ -658,6 +658,10 @@ a:hover, a:active {
     .ag-logo-main{
       padding-top: 3em;
     }
+}
+
+@media screen
+  and (max-device-width: 990px) {
 		.main-mobile-menu-btn{
 				padding-top: 4em;
 		}
