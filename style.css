@@ -670,8 +670,10 @@ a:hover, a:active {
 }
 
 .nav-center ul li {
+    display:inline;
     float: none;
 }
+
 .nav-center ul li a {
     display: inline-block;
 }
@@ -726,10 +728,6 @@ a:hover, a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-}
-
-#primary-menu{
-	color:black;
 }
 
 /* Small menu. */
