@@ -40,7 +40,7 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
         <div class="nav-center">
           <ul class="hide-on-med-and-down black-text">
-						<?php if ( has_nav_menu( 'main' ) ) : ?>
+						<?php if ( has_nav_menu( 'primary' ) ) : ?>
 		            <div class="nav-wrapper hide-on-med-and-down">
 		                <?php wp_nav_menu( array('theme_location' => 'main')); ?>
 		            </div>
