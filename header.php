@@ -23,6 +23,14 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	<header id="masthead" class="site-header">
+		<div class="row">
+			<div class="col s12">
+				<img class="responsive-img rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-doubled.png" alt="Rainbow Pens"></img>
+			</div>
+			<div class="col s6 push-s3">
+				<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
+			</div>
+		</div>
 		<nav class="z-depth-0">
       <div class="nav-wrapper white">
         <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
