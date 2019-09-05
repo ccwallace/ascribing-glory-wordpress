@@ -45,7 +45,7 @@
 -->
 
 			<div class="row">
-				<div class="col s6">
+				<div class="col s4 push-s4">
 					<a href="/home">
 						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 					</a>
