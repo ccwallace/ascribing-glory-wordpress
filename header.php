@@ -35,9 +35,9 @@
 						<a class="black-text material-icons col s3 main-mobile-menu-btn" href="/cart">shopping_cart</a>
 					</div>
 
+					<a href="#" data-activates="mobile-demo" class="button-collapse fixed right col s2"><i class="material-icons black-text main-mobile-menu-btn">menu</i></a>
 				</div>
 
-				<a href="#" data-activates="mobile-demo" class="button-collapse fixed right col s2"><i class="material-icons black-text main-mobile-menu-btn">menu</i></a>
 			</nav>
 			<div class="col s6 push-s3">
 				<a href="/home">
