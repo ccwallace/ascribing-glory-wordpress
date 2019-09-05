@@ -52,7 +52,7 @@
 			</nav>
 -->
 
-			<div class="col s6 push-s3">
+			<div class="col s6">
 				<a href="/home">
 					<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 				</a>
