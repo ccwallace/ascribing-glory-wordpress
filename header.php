@@ -22,37 +22,30 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ascribing-glory' ); ?></a>
-
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$ascribing_glory_description = get_bloginfo( 'description', 'display' );
-			if ( $ascribing_glory_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $ascribing_glory_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'ascribing-glory' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
+		<nav class="z-depth-0">
+      <div class="nav-wrapper white">
+        <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
+        <div class="nav-center">
+          <ul class="hide-on-med-and-down">
+            <li><a class="black-text" href="sass.html">Home</a></li>
+            <li><a class="black-text" href="badges.html">About</a></li>
+            <li><a class="black-text" href="collapsible.html">Weddings</a></li>
+            <li><a class="black-text" href="mobile.html">Resources</a></li>
+            <li><a class="black-text" href="mobile.html">Shop</a></li>
+            <li><a class="black-text" href="mobile.html">Contact</a></li>
+          </ul>
+        </div>
+        <ul class="side-nav right-aligned" id="mobile-demo">
+          <li><a href="sass.html">Home</a></li>
+          <li><a href="badges.html">About</a></li>
+          <li><a href="collapsible.html">Weddings</a></li>
+          <li><a href="mobile.html">Resources</a></li>
+          <li><a href="mobile.html">Shop</a></li>
+          <li><a href="mobile.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
