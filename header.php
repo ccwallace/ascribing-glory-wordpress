@@ -46,7 +46,7 @@
           <li><a class="black-text" href="mobile.html">Contact</a></li>
         </ul>
       </div>
-      <ul class="side-nav" id="mobile-demo">
+      <ul class="side-nav right-aligned" id="mobile-demo">
         <li><a href="sass.html">Home</a></li>
         <li><a href="badges.html">About</a></li>
         <li><a href="collapsible.html">Weddings</a></li>
