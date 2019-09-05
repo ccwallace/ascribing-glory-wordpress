@@ -51,8 +51,8 @@
 					</a>
 				</div>
 				<div class="col s1 offset-s6">
-					<a class="black-text material-icons main-mobile-menu-btn" href="/cart">shopping_cart</a>
 					<nav class="transparent z-depth-0">
+						<a href="/cart"  class="fixed right"><i class="material-icons black-text">shopping_cart</i></a>
 						<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
 					</nav>
 				</div>
