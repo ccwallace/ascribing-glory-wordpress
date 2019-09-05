@@ -30,7 +30,7 @@
 				<img class="responsive-img rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-doubled.png" alt="Rainbow Pens"></img>
 			</div>
 			<nav class="transparent z-depth-0">
-				<a class="black-text material-icons" href="/cart">shopping_cart</a>
+				<a class="black-text material-icons col s3 main-mobile-menu-btn" href="/cart">shopping_cart</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse fixed right col s2"><i class="material-icons black-text main-mobile-menu-btn">menu</i></a>
 			</nav>
 			<div class="col s6 push-s3">
