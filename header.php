@@ -25,17 +25,9 @@
 
 	<!--BEGIN BANNER -->
 	<header id="masthead" class="site-header">
-		<div class="row">
+		<div class="">
 			<div class="col s12">
 				<img class="responsive-img rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-doubled.png" alt="Rainbow Pens"></img>
-			</div>
-			<div class="col s1">
-				<nav class="transparent z-depth-0">
-					<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
-				</nav>
-			</div>
-			<div class="col s2">
-				<a class="black-text material-icons main-mobile-menu-btn" href="/cart">shopping_cart</a>
 			</div>
 
 
@@ -52,10 +44,20 @@
 			</nav>
 -->
 
-			<div class="col s6">
-				<a href="/home">
-					<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
-				</a>
+			<div class="row">
+				<div class="col s6">
+					<a href="/home">
+						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
+					</a>
+				</div>
+				<div class="col s10">
+					<a class="black-text material-icons main-mobile-menu-btn" href="/cart">shopping_cart</a>
+				</div>
+				<div class="col s11">
+					<nav class="transparent z-depth-0">
+						<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
+					</nav>
+				</div>
 			</div>
 		</div>
 
