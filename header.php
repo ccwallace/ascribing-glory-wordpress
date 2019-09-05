@@ -48,7 +48,7 @@
 						?>
           </ul>
         </div>
-        <ul class="side-nav right-aligned" id="mobile-demo">
+        <ul class="side-nav right-aligned black-text" id="mobile-demo">
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
