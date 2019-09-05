@@ -32,9 +32,6 @@
 			<nav class="transparent z-depth-0">
 				<a href="#" data-activates="mobile-demo" class="button-collapse fixed right col s2"><i class="material-icons black-text main-mobile-menu-btn">menu</i></a>
 			</nav>
-
-
-
 			<div class="col s6 push-s3">
 				<a href="/home">
 					<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
@@ -43,8 +40,8 @@
 		</div>
 
 		<!--BEGIN NAVIGATION -->
-		<nav class="z-depth-0">
-      <div class="nav-wrapper transparent">
+		<nav class="z-depth-0 transparent">
+      <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
         <div class="nav-center">
           <ul class="hide-on-med-and-down">
