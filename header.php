@@ -34,34 +34,32 @@
 					<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 				</a>
 			</div>
-			<!--BEGIN NAVIGATION -->
-			<nav class="z-depth-0">
-				<div class="nav-wrapper white">
-					<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
-					<div class="nav-center">
-						<ul class="hide-on-med-and-down">
-							<li><a class="black-text" href="/home">Home</a></li>
-							<li><a class="black-text" href="/about">About</a></li>
-							<li><a class="black-text" href="/weddings">Weddings</a></li>
-							<li><a class="black-text" href="/resources">Resources</a></li>
-							<li><a class="black-text" href="/shop">Shop</a></li>
-							<li><a class="black-text" href="/contact">Contact</a></li>
-						</ul>
-					</div>
-					<ul class="side-nav right-aligned" id="mobile-demo">
-						<li><a href="/home">Home</a></li>
-						<li><a href="/about">About</a></li>
-						<li><a href="/weddings">Weddings</a></li>
-						<li><a href="/resources">Resources</a></li>
-						<li><a href="/shop">Shop</a></li>
-						<li><a href="/contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
-			</header><!-- #masthead -->
-
 		</div>
 
-
+		<!--BEGIN NAVIGATION -->
+		<nav class="z-depth-0">
+      <div class="nav-wrapper white">
+        <a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
+        <div class="nav-center">
+          <ul class="hide-on-med-and-down">
+            <li><a class="black-text" href="/home">Home</a></li>
+            <li><a class="black-text" href="/about">About</a></li>
+            <li><a class="black-text" href="/weddings">Weddings</a></li>
+            <li><a class="black-text" href="/resources">Resources</a></li>
+            <li><a class="black-text" href="/shop">Shop</a></li>
+            <li><a class="black-text" href="/contact">Contact</a></li>
+          </ul>
+        </div>
+        <ul class="side-nav right-aligned" id="mobile-demo">
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/weddings">Weddings</a></li>
+          <li><a href="/resources">Resources</a></li>
+          <li><a href="/shop">Shop</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
