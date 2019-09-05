@@ -24,7 +24,7 @@
 <div id="page" class="site">
 
 	<!--BEGIN BANNER -->
-	<header id="masthead" class="site-header">
+
 		<div class="row">
 			<div class="col s12">
 				<img class="responsive-img rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-doubled.png" alt="Rainbow Pens"></img>
@@ -58,8 +58,6 @@
 					</ul>
 				</div>
 			</nav>
-			</header><!-- #masthead -->
-
 		</div>
 
 
