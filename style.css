@@ -638,7 +638,6 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 @media screen
   and (min-device-width: 990px)
-  and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1)  {
     .ag-logo-main{
       padding-top: 6em;
@@ -654,10 +653,9 @@ a:hover, a:active {
 }
 
 @media screen
-	and (min-device-width: 350px)
   and (max-device-width: 989px){
     .ag-logo-main{
-      padding-top: 3em;
+      padding-top: 4em;
     }
 }
 
