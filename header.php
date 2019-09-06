@@ -24,26 +24,11 @@
 <div id="page" class="site">
 
 	<!--BEGIN BANNER -->
-	<header id="masthead" class="site-header">
+
 		<div class="">
 			<div class="col s12">
 				<img class="responsive-img rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-doubled.png" alt="Rainbow Pens"></img>
 			</div>
-
-
-<!--
-			<nav class="transparent z-depth-0">
-				<div class="row">
-					<div class="col s2">
-						<a class="black-text material-icons main-mobile-menu-btn" href="/cart">shopping_cart</a>
-					</div>
-					<div class="col s1">
-						<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>
-					</div>
-				</div>
-			</nav>
--->
-
 			<div class="row">
 				<div class="col s4 push-s4">
 					<a href="/home">
@@ -88,6 +73,6 @@
         </ul>
       </div>
     </nav>
-	</header><!-- #masthead -->
+	
 
 	<div id="content" class="site-content">
