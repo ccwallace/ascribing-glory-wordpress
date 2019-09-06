@@ -7,7 +7,6 @@ get_header();
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="">
-            <span class="card-title">Hand Holding Pens</span>
           </div>
           <div class="card-action">
             <a href="#">Custom Orders</a>
@@ -15,10 +14,9 @@ get_header();
         </div>
       </div>
       <div class="col s4">
-        <div class="card">
+        <div class="card small">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/alyssa-craft-bag.jpg" alt="">
-            <span class="card-title">Hand Holding Pens</span>
           </div>
           <div class="card-action">
             <a href="/about">Meet Alyssa</a>
@@ -29,7 +27,6 @@ get_header();
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/treasure-art-print.jpg" alt="">
-            <span class="card-title">Hand Holding Pens</span>
           </div>
           <div class="card-action">
             <a href="#">Art Prints</a>
