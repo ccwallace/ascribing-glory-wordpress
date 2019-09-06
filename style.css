@@ -637,7 +637,7 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 @media screen
-  and (min-device-width: 1200px)
+  and (min-device-width: 990px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1)  {
     .ag-logo-main{
@@ -654,18 +654,11 @@ a:hover, a:active {
 }
 
 @media screen
-  and (max-device-width: 600px)
-	and (min-device-width: 350px){
+	and (min-device-width: 350px)
+  and (max-device-width: 989px){
     .ag-logo-main{
       padding-top: 3em;
     }
-}
-
-@media screen
-  and (max-device-width: 990px) {
-		.main-mobile-menu-btn{
-				padding-top: 2em;
-		}
 }
 
 .rainbow-pens{
