@@ -2,7 +2,7 @@
 get_header();
  ?>
   <div class="container">
-    <div class="row">
+    <div class="row card-container">
       <div class="col s4">
         <div class="card">
           <div class="card-image">
