@@ -637,10 +637,25 @@ a:hover, a:active {
 ## Menus
 --------------------------------------------------------------*/
 @media screen
+  and (min-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1)  {
+    .ag-logo-main{
+      padding-top: 9em;
+    }
+}
+
+@media screen
   and (min-device-width: 990px)
   and (-webkit-min-device-pixel-ratio: 1)  {
     .ag-logo-main{
       padding-top: 6em;
+    }
+}
+
+@media screen
+  and (max-device-width: 989px){
+    .ag-logo-main{
+      padding-top: 4em;
     }
 }
 
@@ -652,12 +667,7 @@ a:hover, a:active {
   and (min-resolution: 192dpi) {
 }
 
-@media screen
-  and (max-device-width: 989px){
-    .ag-logo-main{
-      padding-top: 4em;
-    }
-}
+
 
 .rainbow-pens{
   position: absolute;
