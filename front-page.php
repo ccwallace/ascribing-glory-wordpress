@@ -14,7 +14,7 @@ get_header();
         </div>
       </div>
       <div class="col s4">
-        <div class="card small">
+        <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/alyssa-craft-bag.jpg" alt="">
           </div>
