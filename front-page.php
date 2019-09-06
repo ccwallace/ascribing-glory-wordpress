@@ -6,7 +6,7 @@ get_header();
       <div class="col s12 m7">
         <div class="card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri()?> . /img/pens-brushes.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="">
             <span class="card-title">Hand Holding Pens</span>
           </div>
           <div class="card-content">
