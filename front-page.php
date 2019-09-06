@@ -26,7 +26,7 @@ get_header();
       <div class="col s4">
         <div class="card">
           <div class="card-image">
-            <img src="<?php echo get_template_directory_uri();?>/img/treasure-art-print.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri();?>/img/water-bottle-pens-table.jpg" alt="">
           </div>
           <div class="card-action">
             <a href="#">Art Prints</a>
