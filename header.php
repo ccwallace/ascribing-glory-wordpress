@@ -48,14 +48,14 @@
 			</div>
 		</div>
 
-		<div class="row hide-on-large">
-			<div class="col s12">
-				<h1 class="center-align">
-					<i>Creativity With A Purpose</i>
-				</h1>
-			</div>
-		</div>
 	</header><!-- #masthead -->
+	<div class="row hide-on-large">
+		<div class="col s12">
+			<h1 class="center-align">
+				<i>Creativity With A Purpose</i>
+			</h1>
+		</div>
+	</div>
 		<!--BEGIN NAVIGATION -->
 		<nav class="z-depth-0 transparent">
       <div class="nav-wrapper">
