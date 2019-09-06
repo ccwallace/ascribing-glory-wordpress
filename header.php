@@ -48,7 +48,7 @@
 			</div>
 		</div>
 
-		<div class="row show-on-med-and-down">
+		<div class="row hide-on-large">
 			<div class="col s12">
 				<h1 class="center-align">
 					<i>Creativity With A Purpose</i>
@@ -82,7 +82,7 @@
       </div>
     </nav>
 
-		<div class="row show-on-large">
+		<div class="row hide-on-med-and-down">
 			<div class="col s12">
 				<h1 class="center-align">
 					<i>Creativity With A Purpose</i>
