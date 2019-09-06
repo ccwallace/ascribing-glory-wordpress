@@ -3,7 +3,7 @@ get_header();
  ?>
   <div class="container">
     <div class="row card-container">
-      <div class="col s4">
+      <div class="col l4 m4 s12">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="">
@@ -13,7 +13,7 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="col s4">
+      <div class="col l4 m4 s12">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/alyssa-craft-bag.jpg" alt="">
@@ -23,7 +23,7 @@ get_header();
           </div>
         </div>
       </div>
-      <div class="col s4">
+      <div class="col l4 m4 s12">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/water-bottle-pens-table.jpg" alt="">
