@@ -34,6 +34,28 @@ get_header();
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="col s6">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+      </div>
+    </div>
+
+
+
+
+
+
+
+
   </div>
 
 
