@@ -636,7 +636,8 @@ textarea {
 .image-test6{
 	position: relative;
 	width: 25%;
-	top:30px;
+	top:100px;
+	left:60px;
 }
 .image-test7{
 	position: relative;
@@ -651,6 +652,8 @@ textarea {
 .image-test9{
 	position: relative;
 	width: 25%;
+	top:50px;
+	left:35px;
 }
 
 
