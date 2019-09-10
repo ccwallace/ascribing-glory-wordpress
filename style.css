@@ -655,7 +655,7 @@ a:hover, a:active {
 @media screen
   and (max-device-width: 989px){
     .ag-logo-main{
-      padding-top: 4em;
+      padding-top: 5em;
     }
 }
 
