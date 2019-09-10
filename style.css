@@ -610,12 +610,12 @@ textarea {
 .image-test1{
 	position: relative;
 	left: 30px;
-  top: 70px;
   width: 25%;
 }
 .image-test2{
 	position: relative;
-	width: 500px;
+	top: 70px;
+	right: 25px;
 	width: 25%;
 }
 .image-test3{
