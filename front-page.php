@@ -37,15 +37,15 @@ get_header();
 
     <div class="row">
       <div class="col s6">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
-          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test1">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test2">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test3">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test4">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test5">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test6">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test7">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test8">
+          <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="" class="responsive-img image-test9">
       </div>
     </div>
 
