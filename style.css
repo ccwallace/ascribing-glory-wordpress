@@ -609,9 +609,13 @@ textarea {
 
 .image-test1{
 	position: relative;
+	left: 30px;
+  top: 70px;
+  width: 500px;
 }
 .image-test2{
 	position: relative;
+	width: 500px;
 }
 .image-test3{
 	position: relative;
