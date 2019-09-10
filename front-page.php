@@ -49,7 +49,7 @@ get_header();
       </div>
     </div>
 
-
+    <?php do_shortcode('$content'); ?>
 
 
 
