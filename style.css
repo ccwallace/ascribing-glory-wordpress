@@ -631,18 +631,22 @@ textarea {
 .image-test5{
 	position: relative;
 	width: 25%;
+	right:20px;
 }
 .image-test6{
 	position: relative;
 	width: 25%;
+	top:30px;
 }
 .image-test7{
 	position: relative;
 	width: 25%;
+	right: 15px;
 }
 .image-test8{
 	position: relative;
 	width: 25%;
+	top: 30px;
 }
 .image-test9{
 	position: relative;
