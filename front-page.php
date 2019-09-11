@@ -3,7 +3,7 @@ get_header();
  ?>
   <div class="container">
     <div class="row">
-      <div class="col l4 m4 s12">
+      <div class="col l4 m4 s12 center-align">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="">
@@ -14,7 +14,7 @@ get_header();
         </p>
         <a class="waves-effect waves-light btn">Custom Orders</a>
       </div>
-      <div class="col l4 m4 s12">
+      <div class="col l4 m4 s12 center-align">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/alyssa-craft-bag.jpg" alt="">
@@ -25,7 +25,7 @@ get_header();
         </p>
         <a class="waves-effect waves-light btn">Meet Alyssa</a>
       </div>
-      <div class="col l4 m4 s12">
+      <div class="col l4 m4 s12 center-align">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/water-bottle-pens-table.jpg" alt="">
