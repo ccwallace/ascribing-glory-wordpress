@@ -9,8 +9,8 @@ get_header();
             <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="">
           </div>
         </div>
-        <p class="flow-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
         <a class="waves-effect waves-light btn">Custom Orders</a>
       </div>
@@ -20,8 +20,8 @@ get_header();
             <img src="<?php echo get_template_directory_uri();?>/img/alyssa-craft-bag.jpg" alt="">
           </div>
         </div>
-        <p class="flow-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
         <a class="waves-effect waves-light btn">Meet Alyssa</a>
       </div>
@@ -31,8 +31,8 @@ get_header();
             <img src="<?php echo get_template_directory_uri();?>/img/water-bottle-pens-table.jpg" alt="">
           </div>
         </div>
-        <p class="flow-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
         <a class="waves-effect waves-light btn">Art Prints</a>
       </div>
