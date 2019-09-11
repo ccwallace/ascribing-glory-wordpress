@@ -50,6 +50,7 @@ get_header();
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img image-test8 z-depth-3">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img image-test9 z-depth-2">
       </div>
+      <div class="row"></div>
       <div class="col s3 valign-wrapper">
         <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
         <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
