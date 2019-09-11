@@ -8,30 +8,33 @@ get_header();
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes.jpg" alt="">
           </div>
-          <div class="card-action">
-            <a href="#">Custom Orders</a>
-          </div>
         </div>
+        <p class="flow-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a class="waves-effect waves-light btn">Custom Orders</a>
       </div>
       <div class="col l4 m4 s12">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/alyssa-craft-bag.jpg" alt="">
           </div>
-          <div class="card-action">
-            <a href="/about">Meet Alyssa</a>
-          </div>
         </div>
+        <p class="flow-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a class="waves-effect waves-light btn">Meet Alyssa</a>
       </div>
       <div class="col l4 m4 s12">
         <div class="card">
           <div class="card-image">
             <img src="<?php echo get_template_directory_uri();?>/img/water-bottle-pens-table.jpg" alt="">
           </div>
-          <div class="card-action">
-            <a href="#">Art Prints</a>
-          </div>
         </div>
+        <p class="flow-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <a class="waves-effect waves-light btn">Art Prints</a>
       </div>
     </div>
 
