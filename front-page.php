@@ -51,11 +51,9 @@ get_header();
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img image-test9 z-depth-2">
       </div>
       <div class="col s3">
-        <div class="valign-wrapper">
-          <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
-          <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
+        <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
+        <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
     </div>
 
