@@ -57,7 +57,7 @@ get_header();
       </div>
     </div>
 
-    <div class="col s12 center-align show-on-small">
+    <div class="col s12 center-align hide-on-large-only">
       <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
       <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
