@@ -66,9 +66,9 @@ get_header();
 </div>
 
 <div class="row">
-  <div class="divider col s3"></div>
-  <h6>Come Say Hi On Instagram</h6>
-  <div class="divider col s3"></div>
+  <div class="divider col s3 divider-inline"></div>
+  <h4>Come Say Hi On Instagram</h4>
+  <div class="divider col s3 divider-inline"></div>
 </div>
 
   <div class="row instagram-row">

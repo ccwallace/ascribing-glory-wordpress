@@ -655,6 +655,10 @@ textarea {
 	padding-top: 4em;
 }
 
+.divider-inline{
+	display:inline;
+	position: relative;
+}
 
 
 /*--------------------------------------------------------------
