@@ -690,7 +690,7 @@ a:hover, a:active {
 			padding-top: 4em;
 		}
 		.responsive-text{
-			font-size: 4vw;
+			font-size: 33px;
 		}
 }
 
@@ -704,7 +704,7 @@ a:hover, a:active {
 			padding-top: 2em;
 		}
 		.responsive-text{
-				font-size: 3vw;
+				font-size: 20px;
 		}
 }
 
@@ -717,7 +717,7 @@ a:hover, a:active {
 			padding-top: 0em;
 		}
 		.responsive-text{
-			font-size: 2vw;
+			font-size: 14px;
 		}
 }
 
