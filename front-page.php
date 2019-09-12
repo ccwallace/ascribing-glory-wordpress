@@ -65,10 +65,10 @@ get_header();
   </div>
 </div>
 
-<div class="row">
-  <div class="divider col s2"></div>
-  <div class="col s8"><h4>Come Say Hi On Instagram</h4></div>
-  <div class="divider col s2"></div>
+<div class="row valign-wrapper">
+  <div class="divider col s4"></div>
+  <div class="col s4"><h5>Come Say Hi On Instagram</h5></div>
+  <div class="divider col s4"></div>
 </div>
 
   <div class="row instagram-row">
