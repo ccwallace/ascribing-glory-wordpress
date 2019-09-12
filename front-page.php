@@ -67,7 +67,7 @@ get_header();
 
 <div class="row valign-wrapper">
   <div class="divider col s4"></div>
-  <div class="col s4"><h5>Come Say Hi On Instagram</h5></div>
+  <div class="col s4 center-align"><h5>Come Say Hi On Instagram</h5></div>
   <div class="divider col s4"></div>
 </div>
 
