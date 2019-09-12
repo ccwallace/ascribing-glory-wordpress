@@ -39,7 +39,7 @@ get_header();
     </div>
 
     <div class="row valign-wrapper">
-      <div class="col s9 collage">
+      <div class="col s8 collage">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-1 z-depth-2">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-2 z-depth-3">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-3 z-depth-2">
@@ -50,7 +50,7 @@ get_header();
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-8 z-depth-3">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-9 z-depth-2">
       </div>
-      <span class="col s3 center-align hide-on-med-and-down">
+      <span class="col s4 center-align hide-on-med-and-down">
         <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
         <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
