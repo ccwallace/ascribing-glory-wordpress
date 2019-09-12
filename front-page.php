@@ -39,7 +39,7 @@ get_header();
     </div>
 
     <div class="row valign-wrapper">
-      <div class="col s8 collage">
+      <div class="col s8">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-1 z-depth-2 hoverable">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-2 z-depth-3 hoverable">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-3 z-depth-2 hoverable">
@@ -62,6 +62,8 @@ get_header();
       <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </div>
+
+    <div class="divider"></div>
 
   <div class="row instagram-row">
     <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]'); ?>
