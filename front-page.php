@@ -56,7 +56,6 @@ get_header();
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
     </div>
-
 <div class="row">
   <div class="col s12 center-align hide-on-large-only">
     <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
@@ -64,7 +63,6 @@ get_header();
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   </div>
 </div>
-
 <div class="row valign-wrapper">
   <div class="divider col s3 l4"></div>
   <div class="col s6 l4 center-align"><h5 class="responsive-text">Come Say Hi On Instagram</h5></div>
@@ -73,17 +71,20 @@ get_header();
 <div class="row">
   <h6 class="center-align"><a href="#" class="responsive-text">OR FOLLOW ALONG</a></h6>
 </div>
-  <div class="row instagram-row">
-    <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=yes space_between_photos=10px icon_size=65px hide_date_likes_comments=no]'); ?>
+<div class="row instagram-row">
+  <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=yes space_between_photos=10px icon_size=65px hide_date_likes_comments=no]'); ?>
+</div>
 
+<div class="row">
+  <div class="col l6 s12">
+    <h6 class="center-align"><a href="#" class="responsive-text">OR FOLLOW ALONG</a></h6>
   </div>
+</div>
 
 
 
 
-
-
-  </div>
+</div>
 
 
 
