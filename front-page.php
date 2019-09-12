@@ -82,7 +82,7 @@ get_header();
 </div>
 <div class="row">
   <div class="col l12 s12">
-    <p>Get early access + exclusive discounts for new collections, worksops, etc.</p>
+    <p class="center-align">Get early access + exclusive discounts for new collections, worksops, etc.</p>
   </div>
 </div>
 
