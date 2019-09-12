@@ -57,11 +57,11 @@ get_header();
       </div>
     </div>
 
-    <div class="col s12 center-align hide-on-large-only">
+    <span class="col s12 center-align hide-on-large-only">
       <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
       <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    </div>
+    </span>
 
   <div class="row">
     <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]'); ?>
