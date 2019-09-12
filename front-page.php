@@ -50,18 +50,18 @@ get_header();
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-8 z-depth-3 hoverable">
           <img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage-9 z-depth-2 hoverable">
       </div>
-      <span class="col s4 center-align hide-on-med-and-down">
+      <div class="col s4 center-align hide-on-med-and-down">
         <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
         <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-      </span>
+      </div>
     </div>
 
-    <span class="col s12 center-align hide-on-large-only">
+    <div class="col s12 center-align hide-on-large-only">
       <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
       <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-    </span>
+    </div>
 
   <div class="row instagram-row">
     <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=no space_between_photos=1px icon_size=65px hide_date_likes_comments=no]'); ?>
