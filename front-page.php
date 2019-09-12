@@ -72,7 +72,7 @@ get_header();
 </div>
 <div class="row">
   <div class="col s12 valign-wrapper center-align">
-    <a href="#"><p>Or Follow Along</p></a>
+    <a href="#" class="">Or Follow Along</a>
   </div>
 </div>
 
