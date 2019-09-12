@@ -76,8 +76,13 @@ get_header();
 </div>
 
 <div class="row">
-  <div class="col l6 s12">
-    <h6 class="center-align"><a href="#" class="responsive-text">OR FOLLOW ALONG</a></h6>
+  <div class="col l12 s12">
+    <h4 class="center-align"><a href="#" class="responsive-text">JOIN THE AG FAM!</a></h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col l12 s12">
+    <p>Get early access + exclusive discounts for new collections, worksops, etc.</p>
   </div>
 </div>
 
