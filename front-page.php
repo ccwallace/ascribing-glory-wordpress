@@ -67,11 +67,11 @@ get_header();
 
 <div class="row valign-wrapper">
   <div class="divider col s3 l4"></div>
-  <div class="col s6 l4 center-align"><h5 style="font-size: 5vw;">Come Say Hi On Instagram</h5></div>
+  <div class="col s6 l4 center-align"><h5 class="responsive-text">Come Say Hi On Instagram</h5></div>
   <div class="divider col s3 l4"></div>
 </div>
 <div class="row">
-  <h6 class="center-align"><a href="#" style="font-size: 5vw;">OR FOLLOW ALONG</a></h6>
+  <h6 class="center-align"><a href="#" class="responsive-text">OR FOLLOW ALONG</a></h6>
 </div>
   <div class="row instagram-row">
     <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=yes space_between_photos=10px icon_size=65px hide_date_likes_comments=no]'); ?>

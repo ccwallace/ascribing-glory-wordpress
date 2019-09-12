@@ -689,6 +689,9 @@ a:hover, a:active {
 		.instagram-row{
 			padding-top: 4em;
 		}
+		.responsive-text{
+			font-size: 4vw;
+		}
 }
 
 @media screen
@@ -700,6 +703,9 @@ a:hover, a:active {
 		.instagram-row{
 			padding-top: 2em;
 		}
+		.responsive-text{
+				font-size: 3vw;
+		}
 }
 
 @media screen
@@ -709,6 +715,9 @@ a:hover, a:active {
     }
 		.instagram-row{
 			padding-top: 0em;
+		}
+		.responsive-text{
+			font-size: 2vw;
 		}
 }
 
