@@ -66,9 +66,9 @@ get_header();
 </div>
 
 <div class="row valign-wrapper">
-  <div class="divider col s4"></div>
-  <div class="col s4 center-align"><h5>Come Say Hi On Instagram</h5></div>
-  <div class="divider col s4"></div>
+  <div class="divider col s3 l4"></div>
+  <div class="col s6 l4 center-align"><h5 style="font-size: 5vw;">Come Say Hi On Instagram</h5></div>
+  <div class="divider col s3 l4"></div>
 </div>
 <div class="row">
   <h6 class="center-align"><a href="#" style="font-size: 5vw;">OR FOLLOW ALONG</a></h6>
