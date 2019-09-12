@@ -72,7 +72,7 @@ get_header();
 </div>
 
 <div class="row">
-  <h6 class="center-align">Or Follow Along</h6>
+  <h6 class="center-align"><a href="#">OR FOLLOW ALONG</a></h6>
 </div>
 
   <div class="row instagram-row">
