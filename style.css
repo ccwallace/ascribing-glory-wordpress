@@ -607,50 +607,45 @@ textarea {
 	width: 100%;
 }
 
-.image-test1{
+.collage img{
 	position: relative;
+}
+
+.collage-1{
 	left: 90px;
 	top: 40px;
   width: 25%;
 }
-.image-test2{
-	position: relative;
+.collage-2{
 	top: 70px;
 	left: 30px;
 	width: 25%;
 }
-.image-test3{
-	position: relative;
+.collage-3{
 	top: 40px;
 	width: 25%;
 }
-.image-test4{
-	position: relative;
+.collage-4{
 	width: 25%;
 }
-.image-test5{
-	position: relative;
+.collage-5{
 	width: 25%;
 	right:20px;
 }
-.image-test6{
-	position: relative;
+.collage-6{
 	width: 25%;
 	top:100px;
 	left:60px;
 }
-.image-test7{
-	position: relative;
+.collage-7{
 	width: 25%;
 	right: 16px;
 }
-.image-test8{
-	position: relative;
+.collage-8{
 	width: 25%;
 	top: 30px;
 }
-.image-test9{
-	position: relative;
+.collage-9{
 	width: 25%;
 	top:50px;
 	left:35px;
