@@ -651,10 +651,6 @@ textarea {
 	left:35px;
 }
 
-.instagram-row{
-	padding-top: 4em;
-}
-
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -682,7 +678,7 @@ a:hover, a:active {
 }
 
 /*--------------------------------------------------------------
-## Menus
+## Menus & Media Queries
 --------------------------------------------------------------*/
 @media screen
   and (min-device-width: 1600px)
@@ -690,6 +686,9 @@ a:hover, a:active {
     .ag-logo-main{
       padding-top: 14em;
     }
+		.instagram-row{
+			padding-top: 4em;
+		}
 }
 
 @media screen
@@ -698,6 +697,9 @@ a:hover, a:active {
     .ag-logo-main{
       padding-top: 14em;
     }
+		.instagram-row{
+			padding-top: 2em;
+		}
 }
 
 @media screen
@@ -705,6 +707,9 @@ a:hover, a:active {
     .ag-logo-main{
       padding-top: 5em;
     }
+		.instagram-row{
+			padding-top: 0em;
+		}
 }
 
 /* ----------- Retina Screens ----------- */
