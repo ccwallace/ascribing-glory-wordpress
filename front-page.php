@@ -70,10 +70,9 @@ get_header();
   <div class="col s4 center-align"><h5>Come Say Hi On Instagram</h5></div>
   <div class="divider col s4"></div>
 </div>
+
 <div class="row">
-  <div class="col s12 valign-wrapper center-align">
-    <a href="#" class="">Or Follow Along</a>
-  </div>
+  <h6 class="center-align">Or Follow Along</h6>
 </div>
 
   <div class="row instagram-row">
