@@ -95,7 +95,12 @@ get_header();
       </div>
       <div class="input-field col s4">
         <i class="material-icons prefix">email</i>
-        <input placeholder="Email" id="email" type="email" class="validate">
+        <input placeholder="Email" data-error="wrong" data-success="right" id="email" type="email" class="validate">
+      </div>
+      <div class="col s4">
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+          <i class="material-icons right">send</i>
+        </button>
       </div>
     </div>
   </form>
