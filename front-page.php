@@ -89,15 +89,15 @@ get_header();
 <div class="row">
   <form class="col s12">
     <div class="row">
-      <div class="input-field col s4">
+      <div class="input-field col l4 m4 s12">
         <i class="material-icons prefix">account_circle</i>
         <input placeholder="First Name" id="first_name" type="text" class="validate">
       </div>
-      <div class="input-field col s4">
+      <div class="input-field col l4 m4 s12">
         <i class="material-icons prefix">email</i>
         <input placeholder="Email" data-error="wrong" data-success="right" id="email" type="email" class="validate">
       </div>
-      <div class="col s4">
+      <div class="col l4 m4 s12">
         <button class="btn waves-effect waves-light" type="submit" name="action">Submit
           <i class="material-icons right">send</i>
         </button>
