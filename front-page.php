@@ -74,8 +74,6 @@ get_header();
 <div class="row instagram-row">
   <?php echo do_shortcode('[fts_instagram instagram_id=4365244084 pics_count=6 type=user profile_wrap=no super_gallery=yes columns=3 force_columns=yes space_between_photos=10px icon_size=65px hide_date_likes_comments=no]'); ?>
 </div>
-
-<div class="">
   <div class="row">
     <div class="col l12 s12">
       <h4 class="center-align"><a href="#" class="responsive-text"></a>JOIN THE AG FAM!</h4>
@@ -86,7 +84,6 @@ get_header();
       <h5 class="center-align">Get early access + exclusive discounts for new collections, worksops, etc.</h5>
     </div>
   </div>
-</div>
 
 
 <div class="row">
@@ -101,7 +98,7 @@ get_header();
         <input placeholder="Email" data-error="wrong" data-success="right" id="email" type="email" class="validate">
       </div>
       <div class="col l4 m4 s12">
-        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <button class="btn waves-effect waves-light" type="submit" name="action">Sign Me Up
           <i class="material-icons right">send</i>
         </button>
       </div>
@@ -111,14 +108,14 @@ get_header();
 
 
 
+
+
+
+
+
+
+
 </div>
-
-
-
-
-
-
-
 
 <?php
  get_footer();
