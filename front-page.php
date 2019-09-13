@@ -89,9 +89,13 @@ get_header();
 <div class="row">
   <form class="col s12">
     <div class="row">
-      <div class="input-field col s6">
+      <div class="input-field col s4">
+        <i class="material-icons prefix">account_circle</i>
         <input placeholder="First Name" id="first_name" type="text" class="validate">
-        <label for="first_name">First Name</label>
+      </div>
+      <div class="input-field col s4">
+        <i class="material-icons prefix">email</i>
+        <input placeholder="Email" id="email" type="email" class="validate">
       </div>
     </div>
   </form>
