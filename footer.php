@@ -28,7 +28,7 @@
 					</ul>
 					<div class="hide-on-med-and-up">
 						<div class="row">
-							<div class="col s6">
+							<div class="col s12">
 								<ul class="hide-on-med-and-up">
 									<li><a class="black-text" href="/home">Home</a></li>
 									<li><a class="black-text" href="/about">About</a></li>
@@ -37,7 +37,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col s6">
+							<div class="col s12">
 								<ul class="hide-on-med-and-up">
 									<li><a class="black-text" href="/resources">Resources</a></li>
 									<li><a class="black-text" href="/shop">Shop</a></li>
