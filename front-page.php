@@ -77,12 +77,12 @@ get_header();
 
 <div class="row">
   <div class="col l12 s12">
-    <h3 class="center-align"><a href="#" class="responsive-text">JOIN THE AG FAM!</a></h3>
+    <h3 class="center-align"><a href="#" class="responsive-text"></a>JOIN THE AG FAM!</h3>
   </div>
 </div>
 <div class="row">
   <div class="col l12 s12">
-    <h3 class="center-align">Get early access + exclusive discounts for new collections, worksops, etc.</h3>
+    <h4 class="center-align">Get early access + exclusive discounts for new collections, worksops, etc.</h4>
   </div>
 </div>
 
