@@ -26,7 +26,6 @@
 						<li><a class="black-text" href="/resources">Resources</a></li>
 						<li><a class="black-text" href="/shop">Shop</a></li>
 						<li><a class="black-text" href="/contact">Contact</a></li>
-						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
 					</ul>
 				</div>
 			</div>
