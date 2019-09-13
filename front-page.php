@@ -86,6 +86,16 @@ get_header();
   </div>
 </div>
 
+<div class="row">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input placeholder="First Name" id="first_name" type="text" class="validate">
+
+      </div>
+    </div>
+  </form>
+</div>
 
 
 
