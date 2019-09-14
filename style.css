@@ -729,7 +729,9 @@ a:hover, a:active {
   and (min-resolution: 192dpi) {
 }
 
-
+.fieldset{
+	border:0 !important;
+}
 
 .rainbow-pens{
   position: absolute;
