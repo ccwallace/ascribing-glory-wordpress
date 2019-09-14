@@ -85,7 +85,7 @@ get_header();
     </div>
   </div>
 
-
+<!--
 <div class="row">
   <form class="col s12">
     <div class="row">
@@ -105,10 +105,12 @@ get_header();
     </div>
   </form>
 </div>
+-->
 
 
-
-
+<div class="row">
+  <?php echo do_shortcode('[formidable id=2 title=true description=true]'); ?>
+</div>
 
 
 
