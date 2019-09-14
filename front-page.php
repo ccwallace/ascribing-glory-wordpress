@@ -109,7 +109,9 @@ get_header();
 
 
 
-    <?php echo do_shortcode('[formidable id=2 title=false description=false]'); ?>
+<div class="row">
+  <?php echo do_shortcode('[formidable id=2 title=false description=false]'); ?>
+</div>
 
 
 
