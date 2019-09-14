@@ -34,7 +34,7 @@ get_header();
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
-        <a href="/about"class="waves-effect waves-light btn">Art Prints</a>
+        <a href="/about" class="waves-effect waves-light btn">Art Prints</a>
       </div>
     </div>
 
