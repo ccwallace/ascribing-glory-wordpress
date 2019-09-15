@@ -1,6 +1,13 @@
 <?php
 get_header();
  ?>
+ <div class="row hide-on-large-only">
+   <div class="col s12">
+     <h1 class="center-align">
+       <i>Creativity With A Purpose</i>
+     </h1>
+   </div>
+ </div>
   <div class="container">
     <div class="row">
       <div class="col l4 m4 s12 center-align">
