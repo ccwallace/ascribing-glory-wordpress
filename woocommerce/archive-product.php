@@ -106,7 +106,7 @@ do_action( 'woocommerce_before_main_content' );
 	echo('</ul>');
  ?>
 
-<?php echo do_shortcode('[products limit="3" columns="3" category="Art Prints, Greeting Cards, Tshirts" cat_operator="AND"]'); ?>
+
 
 <?php
 if ( woocommerce_product_loop() ) {
