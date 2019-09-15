@@ -72,44 +72,45 @@ do_action( 'woocommerce_before_main_content' );
 	</nav>
 
 <?php
+	$taxonomy     = 'product_cat';
+	$orderby      = 'name';
+	$show_count   = 0;      // 1 for yes, 0 for no
+	$pad_counts   = 0;      // 1 for yes, 0 for no
+	$hierarchical = 0;      // 1 for yes, 0 for no
+	$title        = '';
+	$empty        = 0;
 
+	$args = array(
+		'taxonomy'     => $taxonomy,
+		'orderby'      => $orderby,
+		'show_count'   => $show_count,
+		'pad_counts'   => $pad_counts,
+		'hierarchical' => $hierarchical,
+		'title_li'     => $title,
+		'hide_empty'   => $empty
+	);
 
-echo ('
-<!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-<li><a href="#!">one</a></li>
-<li><a href="#!">two</a></li>
-<li class="divider"></li>
-<li><a href="#!">three</a></li>
-</ul>
-<nav>
-<div class="nav-wrapper">
-<ul class="center hide-on-med-and-down">
-
-<!-- Dropdown Trigger -->
-<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
-</ul>
-</div>
-</nav>');
+	echo ('
+	<!-- Dropdown Structure -->
+	<ul id="dropdown1" class="dropdown-content">');
+	$all_categories = get_categories( $args );
+	foreach ($all_categories as $cat) {
+		if($cat->category_parent == 0 and $cat->name != 'Uncategorized') {
+			$category_id = $cat->term_id;
+			echo '<li><a href="'. get_term_link($cat->slug, 'product_cat') .'" class="black-text">'. $cat->name .'</a></li>';
+		}
+	}
+	echo('
+	</ul>
+	<nav>
+		<div class="nav-wrapper">
+		<ul class="center hide-on-large-only">
+			<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
+		</ul>
+		</div>
+	</nav>
+	');
  ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	<?php
 	/**
