@@ -32,6 +32,23 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', false ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
+
+		<nav class="z-depth-0 transparent">
+			<div class="nav-wrapper">
+				<!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
+				<div class="nav-center">
+					<ul class="hide-on-med-and-down">
+						<li><a class="black-text" href="/home">Home</a></li>
+						<li><a class="black-text" href="/about">About</a></li>
+						<li><a class="black-text" href="/weddings">Weddings</a></li>
+						<li><a class="black-text" href="/resources">Resources</a></li>
+						<li><a class="black-text" href="/shop">Shop</a></li>
+						<li><a class="black-text" href="/contact">Contact</a></li>
+						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	<?php endif; ?>
 
 	<?php
