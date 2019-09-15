@@ -105,10 +105,12 @@ do_action( 'woocommerce_before_main_content' );
 							$category_id = $cat->term_id;
 							echo '<li><a href="'. get_term_link($cat->slug, 'product_cat') .'" class="black-text">'. $cat->name .'</a></li>';
 							//<!-- Dropdown Trigger -->
-				      echo '
-							<ul class="right hide-on-med-and-down">
-								<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
-					    </ul>'
+							echo'<ul class="right hide-on-med-and-down">';
+							echo'<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>';
+							echo '</ul>';
+
+
+
 
 							$args2 = array(
 								'taxonomy'     => $taxonomy,
