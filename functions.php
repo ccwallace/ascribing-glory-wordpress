@@ -180,7 +180,7 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
 function override_woocommerce_breadcrumbs() {
     return array(
             'delimiter'   => ' &#47; ',
-            'wrap_before' => '<nav class="woocommerce-breadcrumb transparent" itemprop="breadcrumb">',
+            'wrap_before' => '<nav class="woocommerce-breadcrumb transparent z-depth-0" itemprop="breadcrumb">',
             'wrap_after'  => '</nav>',
             'before'      => '',
             'after'       => '',
