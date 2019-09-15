@@ -127,13 +127,13 @@ if ( woocommerce_product_loop() ) {
 	 * @hooked woocommerce_catalog_ordering - 30
 	 */
 	do_action( 'woocommerce_before_shop_loop' );
-	echo "howdy!";
 
 	woocommerce_product_loop_start();
 
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
 			the_post();
+			echo "howdy!";
 
 			/**
 			 * Hook: woocommerce_shop_loop.
