@@ -35,6 +35,8 @@ do_action( 'woocommerce_before_main_content' );
 
 	<?php endif; ?>
 	<div class="divider hide-on-med-and-down"></div>
+	<!-- Dropdown Trigger -->
+  <a class='dropdown-button btn hide-on-med-and-down' href='#' data-activates='dropdown1'>Filter</a>
 	<nav class="z-depth-0 transparent">
 		<div class="nav-wrapper">
 			<div class="nav-center">
@@ -98,16 +100,7 @@ do_action( 'woocommerce_before_main_content' );
 			echo '<li><a href="'. get_term_link($cat->slug, 'product_cat') .'" class="black-text">'. $cat->name .'</a></li>';
 		}
 	}
-	echo('
-	</ul>
-	<nav class="z-depth-0 transparent">
-		<div class="nav-wrapper">
-		<ul class="center hide-on-large-only">
-			<li><a class="dropdown-button black-text" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
-		</ul>
-		</div>
-	</nav>
-	');
+	echo('</ul>');
  ?>
 
 	<?php
