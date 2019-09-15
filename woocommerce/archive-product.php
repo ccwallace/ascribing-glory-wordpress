@@ -34,7 +34,7 @@ do_action( 'woocommerce_before_main_content' );
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 
 	<?php endif; ?>
-	<div class="divider"></div>
+	<div class="divider hide-on-med-and-down"></div>
 	<nav class="z-depth-0 transparent">
 		<div class="nav-wrapper">
 			<div class="nav-center">
@@ -66,8 +66,6 @@ do_action( 'woocommerce_before_main_content' );
 					}?>
 				</ul>
 			</div>
-
-
 		</div>
 	</nav>
 
