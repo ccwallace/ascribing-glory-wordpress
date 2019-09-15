@@ -52,6 +52,15 @@ do_action( 'woocommerce_before_main_content' );
 	</nav>
 
 <?php
+
+$taxonomy     = 'product_cat';
+$orderby      = 'name';
+$show_count   = 0;      // 1 for yes, 0 for no
+$pad_counts   = 0;      // 1 for yes, 0 for no
+$hierarchical = 1;      // 1 for yes, 0 for no
+$title        = '';
+$empty        = 0;
+
 $args = array(
 			 'taxonomy'     => $taxonomy,
 			 'orderby'      => $orderby,
