@@ -63,9 +63,7 @@ do_action( 'woocommerce_before_main_content' );
 						if($cat->category_parent == 0 and $cat->name != 'Uncategorized') {
 							$category_id = $cat->term_id;
 							//<!-- Dropdown Trigger -->
-							echo'<ul class="right hide-on-large-only">'
-							echo'<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>'
-							echo '</ul>'
+
 
 							$args2 = array(
 								'taxonomy'     => $taxonomy,
