@@ -84,11 +84,11 @@ echo ('
 </ul>
 <nav>
 <div class="nav-wrapper">
-
+<ul class="right hide-on-med-and-down">
 
 <!-- Dropdown Trigger -->
-<a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a>
-
+<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
+</ul>
 </div>
 </nav>');
  ?>
