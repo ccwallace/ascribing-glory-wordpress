@@ -70,7 +70,7 @@ do_action( 'woocommerce_before_main_content' );
          'title_li'     => $title,
          'hide_empty'   => $empty
   );
- $all_categories = get_categories( $args );
+ $all_categories = get_categories( 'product_cat' );
  foreach ($all_categories as $cat) {
     if($cat->category_parent == 0) {
         $category_id = $cat->term_id;
