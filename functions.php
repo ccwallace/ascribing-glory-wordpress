@@ -176,7 +176,7 @@ add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
  * Change several of the breadcrumb defaults
  */
 
-add_filter( 'woocommerce_breadcrumb_defaults', 'override_woocommerce_breadcrumbs' );
+
 function override_woocommerce_breadcrumbs() {
     return array(
             'delimiter'   => ' &#47; ',
@@ -187,3 +187,4 @@ function override_woocommerce_breadcrumbs() {
             'home'        => _x( 'Home', 'breadcrumb', 'woocommerce' ),
         );
 }
+add_filter( 'woocommerce_breadcrumb_defaults', 'override_woocommerce_breadcrumbs' );
