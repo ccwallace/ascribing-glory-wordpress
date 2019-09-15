@@ -34,7 +34,9 @@ do_action( 'woocommerce_before_main_content' );
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 
 	<?php endif; ?>
-	<div class="divider hide-on-med-and-down"></div>
+	<div class="row">
+		<div class="divider hide-on-med-and-down col s12 center"></div>
+	</div>
 	<!-- Dropdown Trigger -->
   <a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1'>Filter</a>
 	<nav class="z-depth-0 transparent">
