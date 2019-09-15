@@ -32,10 +32,10 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', false ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
-
+		<div class="divider hide-on-med-and-down"></div>
 	<?php endif; ?>
 	<div class="row">
-		<div class="divider col s12 center">
+		<div class="col s12 center">
 			<!-- Dropdown Trigger -->
 			<a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1'>Filter</a>
 		</div>
