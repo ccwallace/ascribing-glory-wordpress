@@ -711,7 +711,7 @@ a:hover, a:active {
 @media screen
   and (max-device-width: 989px){
     .ag-logo-main{
-      padding-top: 9em;
+      padding-top: 4.5em;
     }
 		.instagram-row{
 			padding-top: 0em;
