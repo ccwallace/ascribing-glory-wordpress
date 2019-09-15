@@ -135,7 +135,7 @@ if ( woocommerce_product_loop() ) {
 	//this will show up after the product categories
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
-			echo "<h4>Howdy!</h4>";
+			echo "<p>Howdy!</p>";
 			the_post();
 			//stuff here shows on the individual category list pages
 
