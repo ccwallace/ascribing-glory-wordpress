@@ -167,3 +167,5 @@ do_action( 'woocommerce_after_main_content' );
 do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );
+
+echo do_shortcode('[products limit="3" columns="3" category="Art Prints, Greeting Cards, Tshirts" cat_operator="AND"]'); ?>
