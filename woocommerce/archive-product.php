@@ -38,6 +38,51 @@ do_action( 'woocommerce_before_main_content' );
 	<nav class="z-depth-0 transparent">
 		<div class="nav-wrapper">
 			<div class="nav-center">
+				<!-- Dropdown Structure -->
+				<ul id="dropdown1" class="dropdown-content">
+					<?php
+					$taxonomy     = 'product_cat';
+					$orderby      = 'name';
+					$show_count   = 0;      // 1 for yes, 0 for no
+					$pad_counts   = 0;      // 1 for yes, 0 for no
+					$hierarchical = 0;      // 1 for yes, 0 for no
+					$title        = '';
+					$empty        = 0;
+
+					$args = array(
+						'taxonomy'     => $taxonomy,
+						'orderby'      => $orderby,
+						'show_count'   => $show_count,
+						'pad_counts'   => $pad_counts,
+						'hierarchical' => $hierarchical,
+						'title_li'     => $title,
+						'hide_empty'   => $empty
+					);
+					$all_categories = get_categories( $args );
+					foreach ($all_categories as $cat) {
+						if($cat->category_parent == 0 and $cat->name != 'Uncategorized') {
+							$category_id = $cat->term_id;
+							//<!-- Dropdown Trigger -->
+							echo '
+							<ul class="right hide-on-large-only">
+								<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
+							</ul>'
+
+							$args2 = array(
+								'taxonomy'     => $taxonomy,
+								'child_of'     => 0,
+								'parent'       => $category_id,
+								'orderby'      => $orderby,
+								'show_count'   => $show_count,
+								'pad_counts'   => $pad_counts,
+								'hierarchical' => $hierarchical,
+								'title_li'     => $title,
+								'hide_empty'   => $empty
+							);
+						}
+					}?>
+
+				</ul>
 				<ul class="hide-on-med-and-down">
 					<?php
 					$taxonomy     = 'product_cat';
@@ -62,6 +107,11 @@ do_action( 'woocommerce_before_main_content' );
 						if($cat->category_parent == 0 and $cat->name != 'Uncategorized') {
 							$category_id = $cat->term_id;
 							echo '<li><a href="'. get_term_link($cat->slug, 'product_cat') .'" class="black-text">'. $cat->name .'</a></li>';
+							//<!-- Dropdown Trigger -->
+				      echo '
+							<ul class="right hide-on-med-and-down">
+								<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
+					    </ul>'
 
 							$args2 = array(
 								'taxonomy'     => $taxonomy,
@@ -80,22 +130,12 @@ do_action( 'woocommerce_before_main_content' );
 			</div>
 		</div>
 	</nav>
-	<!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-  <li><a href="#!">one</a></li>
-  <li><a href="#!">two</a></li>
-  <li class="divider"></li>
+	<li class="divider"></li>
   <li><a href="#!">three</a></li>
 </ul>
 <nav>
   <div class="nav-wrapper">
-    <a href="#!" class="brand-logo">Logo</a>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
+
   </div>
 </nav>
 	<?php
