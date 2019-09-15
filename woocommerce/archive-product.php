@@ -133,7 +133,7 @@ if ( woocommerce_product_loop() ) {
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
 			the_post();
-			echo "howdy!";
+			//stuff here shows on the individual category list pages
 
 			/**
 			 * Hook: woocommerce_shop_loop.
@@ -152,6 +152,7 @@ if ( woocommerce_product_loop() ) {
 	 * @hooked woocommerce_pagination - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop' );
+	echo "howdy!";
 } else {
 	/**
 	 * Hook: woocommerce_no_products_found.
