@@ -118,7 +118,7 @@ do_action( 'woocommerce_before_main_content' );
 </header>
 <?php
 if ( woocommerce_product_loop() ) {
-//this will show before all product categories
+//this will show before all product <categories></categories>
 	/**
 	 * Hook: woocommerce_before_shop_loop.
 	 *
@@ -127,13 +127,15 @@ if ( woocommerce_product_loop() ) {
 	 * @hooked woocommerce_catalog_ordering - 30
 	 */
 	do_action( 'woocommerce_before_shop_loop' );
-	echo '<h4>Hello World!</h4>';
+	//this too will show before all product <categories></categories>
+
 
 	woocommerce_product_loop_start();
 
 	//this will show up after the product categories
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
+			echo "<h4>Howdy!</h4>";
 			the_post();
 			//stuff here shows on the individual category list pages
 
