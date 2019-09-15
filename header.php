@@ -35,7 +35,7 @@
 						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
 					</a>
 				</div>
-				<div class="col s4 offset-s8 hide-on-med-and-down">
+				<div class="col s4 offset-s8">
 					<nav class="transparent z-depth-0">
 						<div class="nav-wrapper">
 							<ul class="right">
@@ -49,11 +49,11 @@
 		</div>
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
-		<nav class="z-depth-0 transparent">
+		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
         <div class="nav-center">
-          <ul class="hide-on-med-and-down">
+          <ul>
             <li><a class="black-text" href="/home">Home</a></li>
             <li><a class="black-text" href="/about">About</a></li>
             <li><a class="black-text" href="/weddings">Weddings</a></li>
