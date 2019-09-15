@@ -62,18 +62,6 @@ do_action( 'woocommerce_before_main_content' );
 						if($cat->category_parent == 0 and $cat->name != 'Uncategorized') {
 							$category_id = $cat->term_id;
 							echo '<li><a href="'. get_term_link($cat->slug, 'product_cat') .'" class="black-text">'. $cat->name .'</a></li>';
-
-							$args2 = array(
-								'taxonomy'     => $taxonomy,
-								'child_of'     => 0,
-								'parent'       => $category_id,
-								'orderby'      => $orderby,
-								'show_count'   => $show_count,
-								'pad_counts'   => $pad_counts,
-								'hierarchical' => $hierarchical,
-								'title_li'     => $title,
-								'hide_empty'   => $empty
-							);
 						}
 					}?>
 				</ul>
@@ -81,27 +69,6 @@ do_action( 'woocommerce_before_main_content' );
 		</div>
 	</nav>
 
-<<?php
-echo '
-<!-- Dropdown Structure -->
-<ul id="dropdown1" class="dropdown-content">
-<li><a href="#!">one</a></li>
-<li><a href="#!">two</a></li>
-<li class="divider"></li>
-<li><a href="#!">three</a></li>
-</ul>
-<nav>
-<div class="nav-wrapper">
-<a href="#!" class="brand-logo">Logo</a>
-<ul class="right hide-on-med-and-down">
-<li><a href="sass.html">Sass</a></li>
-<li><a href="badges.html">Components</a></li>
-<!-- Dropdown Trigger -->
-<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-</ul>
-</div>
-</nav>';
- ?>
 
 
 
