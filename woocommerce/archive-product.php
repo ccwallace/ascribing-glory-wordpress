@@ -130,7 +130,7 @@ if ( woocommerce_product_loop() ) {
 
 	woocommerce_product_loop_start();
 
-	echo '<h4>Hello World!</h4>'
+	echo '<h4>Hello World!</h4>';
 
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
