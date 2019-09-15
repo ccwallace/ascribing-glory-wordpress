@@ -58,7 +58,7 @@
             <li><a class="black-text" href="/about">About</a></li>
             <li><a class="black-text" href="/weddings">Weddings</a></li>
             <li><a class="black-text" href="/resources">Resources</a></li>
-            <li><a class="black-text" href="/shop">Shop</a></li>
+            <li><a class="black-text" href="/shop-categories">Shop</a></li>
             <li><a class="black-text" href="/contact">Contact</a></li>
 						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
           </ul>
@@ -71,7 +71,7 @@
 				<li><a href="/about">About</a></li>
 				<li><a href="/weddings">Weddings</a></li>
 				<li><a href="/resources">Resources</a></li>
-				<li><a href="/shop">Shop</a></li>
+				<li><a href="/shop-categories">Shop</a></li>
 				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
