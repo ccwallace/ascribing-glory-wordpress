@@ -38,7 +38,6 @@ do_action( 'woocommerce_before_main_content' );
 	<nav class="z-depth-0 transparent">
 		<div class="nav-wrapper">
 			<div class="nav-center">
-				</ul>
 				<ul class="hide-on-med-and-down">
 					<?php
 					$taxonomy     = 'product_cat';
@@ -81,14 +80,7 @@ do_action( 'woocommerce_before_main_content' );
 			</div>
 		</div>
 	</nav>
-	<li class="divider"></li>
-  <li><a href="#!">three</a></li>
-</ul>
-<nav>
-  <div class="nav-wrapper">
 
-  </div>
-</nav>
 	<?php
 	/**
 	 * Hook: woocommerce_archive_description.
