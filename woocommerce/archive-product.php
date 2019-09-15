@@ -51,7 +51,18 @@ do_action( 'woocommerce_before_main_content' );
 		</div>
 	</nav>
 
-<?php echo $cat ?>
+<?php
+$args = array(
+			 'taxonomy'     => $taxonomy,
+			 'orderby'      => $orderby,
+			 'show_count'   => $show_count,
+			 'pad_counts'   => $pad_counts,
+			 'hierarchical' => $hierarchical,
+			 'title_li'     => $title,
+			 'hide_empty'   => $empty
+);
+
+	echo get_categories($args); ?>
 
 	<?php
 	/**
