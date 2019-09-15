@@ -168,4 +168,4 @@ do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );
 
-echo do_shortcode('[products limit="3" columns="3" category="art-prints, greeting-cards, Tshirts" cat_operator="AND"]'); ?>
+do_shortcode('[products limit="3" columns="3" category="art-prints, greeting-cards, Tshirts" cat_operator="AND"]'); ?>
