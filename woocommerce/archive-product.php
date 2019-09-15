@@ -84,7 +84,7 @@ echo ('
 </ul>
 <nav>
 <div class="nav-wrapper">
-<ul class="right hide-on-med-and-down">
+<ul class="center hide-on-med-and-down">
 
 <!-- Dropdown Trigger -->
 <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Filter<i class="material-icons right">arrow_drop_down</i></a></li>
