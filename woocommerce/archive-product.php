@@ -119,6 +119,7 @@ do_action( 'woocommerce_before_main_content' );
 <?php
 if ( woocommerce_product_loop() ) {
 
+	echo '<h4>Hello World!</h4>';
 	/**
 	 * Hook: woocommerce_before_shop_loop.
 	 *
@@ -130,8 +131,7 @@ if ( woocommerce_product_loop() ) {
 
 	woocommerce_product_loop_start();
 
-	echo '<h4>Hello World!</h4>';
-
+	//this will show up after the product categories
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
 			the_post();
