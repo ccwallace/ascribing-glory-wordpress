@@ -33,15 +33,13 @@ do_action( 'woocommerce_before_main_content' );
 	<?php if ( apply_filters( 'woocommerce_show_page_title', false ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 
-	<div class="divider"></div>
 	<?php endif; ?>
+	<div class="divider"></div>
 	<nav class="z-depth-0 transparent">
 		<div class="nav-wrapper">
 			<div class="nav-center">
 				<ul class="hide-on-med-and-down">
-
 					<?php
-
 					$taxonomy     = 'product_cat';
 					$orderby      = 'name';
 					$show_count   = 0;      // 1 for yes, 0 for no
@@ -77,9 +75,7 @@ do_action( 'woocommerce_before_main_content' );
 								'hide_empty'   => $empty
 							);
 						}
-					}
-
-					?>
+					}?>
 				</ul>
 			</div>
 		</div>
