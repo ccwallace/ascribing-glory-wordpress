@@ -33,7 +33,7 @@ do_action( 'woocommerce_before_main_content' );
 	<?php if ( apply_filters( 'woocommerce_show_page_title', false ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 
-
+	<div class="divider"></div>
 	<?php endif; ?>
 	<nav class="z-depth-0 transparent">
 		<div class="nav-wrapper">
@@ -61,7 +61,7 @@ do_action( 'woocommerce_before_main_content' );
 					);
 					$all_categories = get_categories( $args );
 					foreach ($all_categories as $cat) {
-						if($cat->category_parent == 0) {
+						if($cat->category_parent == 0 and $cat->name != 'Uncategorized') {
 							$category_id = $cat->term_id;
 							echo '<li><a href="'. get_term_link($cat->slug, 'product_cat') .'" class="black-text">'. $cat->name .'</a></li>';
 
@@ -76,12 +76,6 @@ do_action( 'woocommerce_before_main_content' );
 								'title_li'     => $title,
 								'hide_empty'   => $empty
 							);
-							$sub_cats = get_categories( $args2 );
-							if($sub_cats) {
-								foreach($sub_cats as $sub_category) {
-									echo  $sub_category->name ;
-								}
-							}
 						}
 					}
 
