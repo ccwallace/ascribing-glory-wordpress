@@ -130,6 +130,8 @@ if ( woocommerce_product_loop() ) {
 
 	woocommerce_product_loop_start();
 
+	echo '<h4>Hello World!</h4>'
+
 	if ( wc_get_loop_prop( 'total' ) ) {
 		while ( have_posts() ) {
 			the_post();
@@ -152,7 +154,7 @@ if ( woocommerce_product_loop() ) {
 	 * @hooked woocommerce_pagination - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop' );
-	echo "howdy!";
+	//this stuff shows after the categories on the Shop All Page
 } else {
 	/**
 	 * Hook: woocommerce_no_products_found.
