@@ -40,12 +40,6 @@ do_action( 'woocommerce_before_main_content' );
 			<div class="nav-center">
 				<ul class="hide-on-med-and-down">
 					<li><a class="black-text" href="/home">Home</a></li>
-					<li><a class="black-text" href="/about">About</a></li>
-					<li><a class="black-text" href="/weddings">Weddings</a></li>
-					<li><a class="black-text" href="/resources">Resources</a></li>
-					<li><a class="black-text" href="/shop">Shop</a></li>
-					<li><a class="black-text" href="/contact">Contact</a></li>
-					<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
 				</ul>
 			</div>
 		</div>
@@ -55,7 +49,7 @@ do_action( 'woocommerce_before_main_content' );
 
   $taxonomy     = 'product_cat';
   $orderby      = 'name';
-  $show_count   = 0;      // 1 for yes, 0 for no
+  $show_count   = 1;      // 1 for yes, 0 for no
   $pad_counts   = 0;      // 1 for yes, 0 for no
   $hierarchical = 1;      // 1 for yes, 0 for no
   $title        = '';
@@ -70,7 +64,7 @@ do_action( 'woocommerce_before_main_content' );
          'title_li'     => $title,
          'hide_empty'   => $empty
   );
- $all_categories = get_categories( 'product_cat' );
+ $all_categories = get_categories( $args );
  foreach ($all_categories as $cat) {
     if($cat->category_parent == 0) {
         $category_id = $cat->term_id;
