@@ -37,7 +37,7 @@ do_action( 'woocommerce_before_main_content' );
 	<div class="row">
 		<div class="col s12 center">
 			<!-- Dropdown Trigger -->
-			<a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1'>Filter</a>
+			<a class='dropdown-button btn hide-on-large-only' data-beloworigin="true" href='#' data-activates='dropdown1'>Filter</a>
 		</div>
 	</div>
 	<nav class="z-depth-0 transparent hide-on-med-and-down">
