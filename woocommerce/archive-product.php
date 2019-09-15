@@ -35,15 +35,15 @@ do_action( 'woocommerce_before_main_content' );
 
 	<?php endif; ?>
 	<div class="row">
-		<div class="divider hide-on-med-and-down col s12 center">
+		<div class="divider col s12 center">
 			<!-- Dropdown Trigger -->
 			<a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1'>Filter</a>
 		</div>
 	</div>
-	<nav class="z-depth-0 transparent">
+	<nav class="z-depth-0 transparent hide-on-med-and-down">
 		<div class="nav-wrapper">
 			<div class="nav-center">
-				<ul class="hide-on-med-and-down">
+				<ul>
 					<?php
 					$taxonomy     = 'product_cat';
 					$orderby      = 'name';
