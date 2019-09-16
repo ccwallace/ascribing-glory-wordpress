@@ -23,7 +23,7 @@
 						<li><a class="black-text" href="/about">About</a></li>
 						<li><a class="black-text" href="/weddings">Weddings</a></li>
 						<li><a class="black-text" href="/resources">Resources</a></li>
-						<li><a class="black-text" href="/shop-categories">Shop</a></li>
+						<li><a class="black-text" href="/shop">Shop</a></li>
 						<li><a class="black-text" href="/contact">Contact</a></li>
 					</ul>
 					<div class="hide-on-med-and-up">
@@ -40,7 +40,7 @@
 							<div class="col s12">
 								<ul class="hide-on-med-and-up">
 									<li><a class="black-text" href="/resources">Resources</a></li>
-									<li><a class="black-text" href="/shop-categories">Shop</a></li>
+									<li><a class="black-text" href="/shop">Shop</a></li>
 									<li><a class="black-text" href="/contact">Contact</a></li>
 								</ul>
 							</div>
