@@ -74,8 +74,7 @@ echo('</ul>');
 <?php
   $prod_menu = wp_get_nav_menu_items('Product-Categories');
 
-  foreach ($prod_menu as $item) {
+  foreach ($prod_menu as $item)
     echo $item->name;
-  }
 
  ?>
