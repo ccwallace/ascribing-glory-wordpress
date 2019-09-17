@@ -76,15 +76,15 @@
 			</ul>
 		</div>
 
-		//condition all of this
+	<!--condition all of this-->
 
 		<?php
 			global $wp;
 
 			if(strpos($wp->request, 'shop') == true){
-				echo 'you are on the shop page';
+				echo '<h1>you are on the shop page</h1>';
 			}elseif(strpos($wp->request, 'product-category') == true){
-				echo 'you are viewing a product category';
+				echo '<h1>you are viewing a product category</h1>';
 			}
 
 		?>
@@ -164,5 +164,5 @@
 	 ?>
 
 
-//stop conditional here
+<!-- Stop condition here-->
 	<div id="content" class="site-content">
