@@ -734,10 +734,13 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-#product-pagination span, a{
+#product-pagination span{
 	color:black !important;
 }
 
+#product-pagination a{
+	color:black !important;
+}
 .rainbow-pens{
   position: absolute;
   z-index: -1;
