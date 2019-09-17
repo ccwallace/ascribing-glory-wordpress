@@ -729,6 +729,10 @@ a:hover, a:active {
   and (min-resolution: 192dpi) {
 }
 
+#product-pagination{
+	background-color: transparent;
+}
+
 .rainbow-pens{
   position: absolute;
   z-index: -1;

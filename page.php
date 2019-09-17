@@ -41,6 +41,5 @@ get_header();
 
 <?php
 
-echo 'howdy!';
 get_sidebar();
 get_footer();
