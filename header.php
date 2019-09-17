@@ -81,7 +81,7 @@
 			global $wp;
 
 			if(strpos(home_url($wp->request), 'shop') == true or strpos(home_url($wp->request), 'product-category') == true){
-				echo get_template_part('shop', 'menu');
+				echo get_template_part('shop-menu');
 			}
 		?>
 
