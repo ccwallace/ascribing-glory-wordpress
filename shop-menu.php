@@ -1,4 +1,4 @@
-<?php$menuitems = wp_get_nav_menu_items( 'Product-Categories', array( 'order' => 'DESC' ) );?>
+<?php $menuitems = wp_get_nav_menu_items( 'Product-Categories', array( 'order' => 'DESC' ) ); ?>
 <div class="row">
   <div class="col s12 center">
     <!-- Dropdown Trigger -->
