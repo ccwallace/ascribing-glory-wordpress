@@ -75,6 +75,19 @@
 				<li><a href="/contact">Contact</a></li>
 			</ul>
 		</div>
+
+		//condition all of this
+
+		<?php
+			global $wp;
+
+			if(strpos($wp->request, 'shop') == true){
+				echo 'you are on the shop page';
+			}elseif(strpos($wp->request, 'product-category') == true){
+				echo 'you are viewing a product category';
+			}
+
+		?>
 		<div class="row">
 			<div class="col s12 center">
 				<!-- Dropdown Trigger -->
@@ -86,6 +99,9 @@
 				<div class="nav-center">
 					<ul>
 						<?php
+
+
+
 						$taxonomy     = 'product_cat';
 						$orderby      = 'name';
 						$show_count   = 0;      // 1 for yes, 0 for no
@@ -146,6 +162,7 @@
 		}
 		echo('</ul>');
 	 ?>
- <?php global $wp;
-		echo home_url($wp->request);?>
+
+
+//stop conditional here
 	<div id="content" class="site-content">
