@@ -729,7 +729,7 @@ a:hover, a:active {
   and (min-resolution: 192dpi) {
 }
 
-.pagination{
+.obfx-grid-pagination nav{
 	background-color: transparent !important;
 }
 
