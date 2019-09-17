@@ -734,7 +734,7 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-.page-numbers{
+.page-numbers span a{
 	color:black !important;
 }
 
