@@ -40,5 +40,7 @@ get_header();
 	</div><!-- #primary -->
 
 <?php
+
+echo 'howdy!';
 get_sidebar();
 get_footer();
