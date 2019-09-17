@@ -146,5 +146,5 @@
 		}
 		echo('</ul>');
 	 ?>
-
+ <?php echo get_current_template()?>
 	<div id="content" class="site-content">
