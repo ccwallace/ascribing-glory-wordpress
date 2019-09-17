@@ -146,5 +146,7 @@
 		}
 		echo('</ul>');
 	 ?>
- <?php echo get_current_template();?>
+ <?php global $wp
+		echo home_url($wp->request);
+ ;?>
 	<div id="content" class="site-content">
