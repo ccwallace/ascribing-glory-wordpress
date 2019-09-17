@@ -12,13 +12,14 @@
           $menuitems = wp_get_nav_menu_items( 'Product-Categories', array( 'order' => 'DESC' ) );
           $count = 0;
           $submenu = false;
-          foreach( $menuitems as $item ):
+          foreach( $menuitems as $item ){
               // set up title and url
               $title = $item->title;
               $link = $item->url;
 
               echo $title;
               echo $link;
+            }
         ?>
 
 
