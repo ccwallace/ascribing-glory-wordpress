@@ -76,7 +76,6 @@
 			</ul>
 		</div>
 
-
 		<?php
 			global $wp;
 
