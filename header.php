@@ -82,19 +82,20 @@
 			global $wp;
 
 			if(strpos(home_url($wp->request), 'shop') == true or strpos(home_url($wp->request), 'product-category') == true){
-				echo '<h1>you are on a shopping page</h1>';
-			}
-		?>
-		<div class="row">
-			<div class="col s12 center">
+				echo ("
+				<div class="row">
+				<div class="col s12 center">
 				<!-- Dropdown Trigger -->
 				<a class='dropdown-button btn hide-on-large-only' data-beloworigin="true" href='#' data-activates='dropdown1'>Filter</a>
-			</div>
-		</div>
-		<nav class="z-depth-0 transparent hide-on-med-and-down">
-			<div class="nav-wrapper">
+				</div>
+				</div>
+				<nav class="z-depth-0 transparent hide-on-med-and-down">
+				<div class="nav-wrapper">
 				<div class="nav-center">
-					<ul>
+				<ul>
+				");
+			}
+		?>
 						<?php
 
 
