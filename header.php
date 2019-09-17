@@ -146,7 +146,6 @@
 		}
 		echo('</ul>');
 	 ?>
- <?php global $wp
-		echo home_url($wp->request);
- ;?>
+ <?php global $wp;
+		echo home_url($wp->request);?>
 	<div id="content" class="site-content">
