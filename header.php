@@ -81,12 +81,9 @@
 		<?php
 			global $wp;
 
-			if(strpos(home_url($wp->request), 'shop') == true){
-				echo '<h1>you are on the shop page</h1>';
-			}elseif(strpos(home_url($wp->request), 'product-category') == true){
-				echo '<h1>you are viewing a product category</h1>';
+			if(strpos(home_url($wp->request), 'shop') == true or strpos(home_url($wp->request), 'product-category') == true){
+				echo '<h1>you are on a shopping page</h1>';
 			}
-
 		?>
 		<div class="row">
 			<div class="col s12 center">
