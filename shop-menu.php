@@ -9,7 +9,7 @@
     <div class="nav-center">
       <ul>
         <?php
-        $taxonomy     = 'Product-Categories';
+        $taxonomy     = 'product_cat';
         $orderby      = 'name';
         $show_count   = 0;      // 1 for yes, 0 for no
         $pad_counts   = 0;      // 1 for yes, 0 for no
@@ -69,3 +69,9 @@ foreach ($all_categories as $cat) {
 }
 echo('</ul>');
 ?>
+
+
+<<?php
+  echo wp_get_nav_menu_items('Product-Categories');
+
+ ?>
