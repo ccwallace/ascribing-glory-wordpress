@@ -729,8 +729,12 @@ a:hover, a:active {
   and (min-resolution: 192dpi) {
 }
 
-.obfx-grid-pagination nav{
-	background-color: transparent !important;
+#product-pagination nav{
+	background-color: transparent;
+}
+
+#product-pagination {
+	z-index: 0;
 }
 
 .rainbow-pens{
