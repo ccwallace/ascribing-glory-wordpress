@@ -729,8 +729,8 @@ a:hover, a:active {
   and (min-resolution: 192dpi) {
 }
 
-#product-pagination nav{
-	background-color: transparent;
+.pagination{
+	background-color: transparent !important;
 }
 
 .rainbow-pens{
