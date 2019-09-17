@@ -734,11 +734,11 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-#product-pagination span{
+.page-numbers span{
 	color:black !important;
 }
 
-#product-pagination a{
+.page-numbers a{
 	color:black !important;
 }
 .rainbow-pens{
