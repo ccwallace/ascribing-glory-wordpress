@@ -734,8 +734,8 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-#product-pagination span a{
-	color: black !important;
+.page-numbers{
+	color:black !important;
 }
 
 .rainbow-pens{
