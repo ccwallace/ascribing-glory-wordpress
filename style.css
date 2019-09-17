@@ -734,13 +734,10 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-.page-numbers span{
+.pagination a {
 	color:black !important;
 }
 
-.page-numbers a{
-	color:black !important;
-}
 .rainbow-pens{
   position: absolute;
   z-index: -1;
