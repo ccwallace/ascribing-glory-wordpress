@@ -76,7 +76,6 @@
 			</ul>
 		</div>
 
-	<!--condition all of this-->
 
 		<?php
 			global $wp;
@@ -85,6 +84,4 @@
 				echo get_template_part('shop', 'menu');
 		?>
 
-
-<!-- Stop condition here-->
 	<div id="content" class="site-content">
