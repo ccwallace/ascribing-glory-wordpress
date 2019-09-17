@@ -9,7 +9,7 @@
     <div class="nav-center">
       <ul>
         <?php
-        $taxonomy     = 'product_cat';
+        $taxonomy     = 'Product-Categories';
         $orderby      = 'name';
         $show_count   = 0;      // 1 for yes, 0 for no
         $pad_counts   = 0;      // 1 for yes, 0 for no
