@@ -731,10 +731,7 @@ a:hover, a:active {
 
 #product-pagination nav{
 	background-color: transparent;
-}
-
-#product-pagination {
-	z-index: 0;
+	box-shadow: none !important;
 }
 
 .rainbow-pens{
