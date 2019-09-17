@@ -81,9 +81,9 @@
 		<?php
 			global $wp;
 
-			if(strpos($wp->request, 'shop') == true){
+			if(strpos(home_url($wp->request), 'shop') == true){
 				echo '<h1>you are on the shop page</h1>';
-			}elseif(strpos($wp->request, 'product-category') == true){
+			}elseif(strpos(home_url($wp->request), 'product-category') == true){
 				echo '<h1>you are viewing a product category</h1>';
 			}
 
