@@ -33,7 +33,7 @@ get_header( 'shop' ); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 			<!--place back button here-->
-			<a  onclick="history.back();" class="waves-effect waves-light btn">button</a>
+			<a  onclick="history.back();" class="">Back to ______</a>
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
