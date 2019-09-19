@@ -32,7 +32,8 @@ get_header( 'shop' ); ?>
 	?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
-			<h1>Howdy!</h1>
+			<!--place back button here-->
+			<a onclick="histroy.back();" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">arrow_back</i></a>
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
