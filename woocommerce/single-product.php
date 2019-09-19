@@ -34,7 +34,7 @@ get_header( 'shop' ); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<!--place back button here-->
-			<button onclick="history.back();" class="btn">Back<i class="material-icons left">keyboard_arrow_left</i></button>
+			<button onclick="history.back();" class="btn transparent black-text z-depth-0">Back<i class="material-icons left">keyboard_arrow_left</i></button>
 
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
