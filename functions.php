@@ -189,9 +189,11 @@ function override_woocommerce_breadcrumbs() {
 }
 add_filter( 'woocommerce_breadcrumb_defaults', 'override_woocommerce_breadcrumbs' );
 
+/*
 add_filter( 'woocommerce_product_tabs', 'ag_remove_product_tabs', 98 );
- 
+
 function ag_remove_product_tabs( $tabs ) {
     unset( $tabs['additional_information'] );
     return $tabs;
 }
+*/
