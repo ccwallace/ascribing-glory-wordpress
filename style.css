@@ -734,6 +734,10 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
+.woocommerce-tabs .tables li a{
+	display: none !important;
+}
+
 .rainbow-pens{
   position: absolute;
   z-index: -1;
