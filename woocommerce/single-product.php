@@ -36,6 +36,11 @@ get_header( 'shop' ); ?>
 			<!--place back button here-->
 			<button onclick="history.back();" class="btn transparent black-text z-depth-0">Back<i class="material-icons left">keyboard_arrow_left</i></button>
 
+			<div class="row">
+				<div class="col s12 hide-on-med-and-up">
+					<?php the_title( '<h1 class="product_title entry-title hide-on-small-only">', '</h1>' ); ?>
+				</div>
+			</div>
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
