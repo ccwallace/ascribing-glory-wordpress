@@ -25,7 +25,7 @@ if ( $related_products ) : ?>
 
 		<div class="row">
 			<div class="col s12">
-				<h5 class="center-align"><?php esc_html_e( 'Related products', 'woocommerce' ); ?></h5>
+				<h5 class="center-align"><?php esc_html_e( 'You might also like', 'woocommerce' ); ?></h5>
 			</div>
 		</div>
 
