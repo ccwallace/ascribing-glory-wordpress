@@ -17,7 +17,7 @@
 		<!--BEGIN FOOTER NAVIGATION -->
 		<nav class="z-depth-0 transparent">
 			<div class="nav-wrapper">
-				<div class="nav-center">
+				<div class="nav-center" style="text-transform: capitalize;">
 					<ul class="hide-on-small-only">
 						<li><a class="black-text" href="/home">Home</a></li>
 						<li><a class="black-text" href="/about">About</a></li>

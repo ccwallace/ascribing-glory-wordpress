@@ -53,7 +53,7 @@
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
         <div class="nav-center">
-          <ul>
+          <ul style="text-transform: capitalize;">
             <li><a class="black-text" href="/home">Home</a></li>
             <li><a class="black-text" href="/about">About</a></li>
             <li><a class="black-text" href="/weddings">Weddings</a></li>
@@ -66,7 +66,7 @@
       </div>
     </nav>
 		<div class="nav-wrapper">
-			<ul class="side-nav right-aligned" id="mobile-demo">
+			<ul class="side-nav right-aligned" id="mobile-demo" style="text-transform: capitalize;">
 				<li><a href="/home">Home</a></li>
 				<li><a href="/about">About</a></li>
 				<li><a href="/weddings">Weddings</a></li>
