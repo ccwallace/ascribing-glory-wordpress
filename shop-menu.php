@@ -1,5 +1,5 @@
 <?php $menuitems = wp_get_nav_menu_items( 'Product-Categories', array( 'order' => 'DESC' ) ); ?>
-<div class="row">
+<div class="row hide-on-med-and-up">
   <div class="col s12 center">
     <!-- Dropdown Trigger -->
     <a class='dropdown-button btn hide-on-large-only' data-beloworigin="true" href='#' data-activates='dropdown1'>Filter</a>
