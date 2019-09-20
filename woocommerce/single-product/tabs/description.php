@@ -24,7 +24,17 @@ $heading = apply_filters( 'woocommerce_product_description_heading', __( 'Descri
 ?>
 
 <?php if ( $heading ) : ?>
-	<h2><?php echo esc_html( $heading ); ?></h2>
+<div class="row">
+	<div class="col l12">
+		<h4><?php echo esc_html( $heading ); ?></h4>
+	</div>
+</div>
 <?php endif; ?>
 
 <?php the_content(); ?>
+
+<div class="row">
+	<div class="col s12">
+		<h5 class="center-align">Shipping & Returns</h5>
+	</div>
+</div>
