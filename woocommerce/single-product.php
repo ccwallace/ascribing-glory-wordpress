@@ -38,7 +38,7 @@ get_header( 'shop' ); ?>
 
 			<div class="row">
 				<div class="col s12 hide-on-med-and-up">
-					<?php the_title( '<h1 class="product_title entry-title hide-on-small-only">', '</h1>' ); ?>
+					<?php the_title( '<h1 class="product_title hide-on-med-and-up">', '</h1>' ); ?>
 				</div>
 			</div>
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
