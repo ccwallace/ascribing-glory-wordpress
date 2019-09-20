@@ -453,7 +453,12 @@ mark, ins {
 big {
 	font-size: 125%;
 }
-nav{
+nav, button{
+	font-family: raleway;
+	text-transform: uppercase;
+}
+
+#dropdown1{
 	font-family: raleway;
 	text-transform: uppercase;
 }
