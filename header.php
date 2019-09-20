@@ -53,26 +53,26 @@
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
         <div class="nav-center">
-          <ul style="text-transform: capitalize;">
-            <li><a class="black-text" href="/home">Home</a></li>
-            <li><a class="black-text" href="/about">About</a></li>
-            <li><a class="black-text" href="/weddings">Weddings</a></li>
-            <li><a class="black-text" href="/resources">Resources</a></li>
-            <li><a class="black-text" href="/shop-main">Shop</a></li>
-            <li><a class="black-text" href="/contact">Contact</a></li>
+          <ul>
+            <li><a class="black-text" href="/home">HOME</a></li>
+            <li><a class="black-text" href="/about">ABOUT</a></li>
+            <li><a class="black-text" href="/weddings">WEDDINGS</a></li>
+            <li><a class="black-text" href="/resources">RESOURCES</a></li>
+            <li><a class="black-text" href="/shop-main">SHOP</a></li>
+            <li><a class="black-text" href="/contact">CONTACT</a></li>
 						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
           </ul>
         </div>
       </div>
     </nav>
 		<div class="nav-wrapper">
-			<ul class="side-nav right-aligned" id="mobile-demo" style="text-transform: capitalize;">
-				<li><a href="/home">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/weddings">Weddings</a></li>
-				<li><a href="/resources">Resources</a></li>
-				<li><a href="/shop-main">Shop</a></li>
-				<li><a href="/contact">Contact</a></li>
+			<ul class="side-nav right-aligned" id="mobile-demo">
+				<li><a href="/home">HOME</a></li>
+				<li><a href="/about">ABOUT</a></li>
+				<li><a href="/weddings">WEDDINGS</a></li>
+				<li><a href="/resources">RESOURCES</a></li>
+				<li><a href="/shop-main">SHOP</a></li>
+				<li><a href="/contact">CONTACT</a></li>
 			</ul>
 		</div>
 
