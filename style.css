@@ -734,7 +734,7 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-.woocommerce-tabs .tables li a{
+.wc-tabs{
 	display: none !important;
 }
 
