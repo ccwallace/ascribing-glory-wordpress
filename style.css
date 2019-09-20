@@ -734,10 +734,6 @@ a:hover, a:active {
 	box-shadow: none;
 }
 
-.wc-tabs{
-	display: none !important;
-}
-
 .rainbow-pens{
   position: absolute;
   z-index: -1;
