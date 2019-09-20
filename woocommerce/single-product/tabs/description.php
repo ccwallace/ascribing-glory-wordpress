@@ -25,8 +25,8 @@ $heading = apply_filters( 'woocommerce_product_description_heading', __( 'Descri
 
 <?php if ( $heading ) : ?>
 <div class="row">
-	<div class="col l12">
-		<h4><?php echo esc_html( $heading ); ?></h4>
+	<div class="col s12">
+		<h4 class="center-align"><?php echo esc_html( $heading ); ?></h4>
 	</div>
 </div>
 <?php endif; ?>
