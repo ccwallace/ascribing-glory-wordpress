@@ -1010,8 +1010,8 @@ a:hover, a:active {
 	display: none !important;
 }
 
-.woocommerce ul.products li.product .button{
-    display: none;
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+    display: none !important;
 }
 /*--------------------------------------------------------------
 ## Comments
