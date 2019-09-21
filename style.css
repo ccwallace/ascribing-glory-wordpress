@@ -321,8 +321,8 @@ textarea {
 }
 
 a.checkout-button{
-	background-color: black;
-	
+	background-color: black !important;
+
 }
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
