@@ -1010,6 +1010,11 @@ a:hover, a:active {
 	display: none !important;
 }
 
+.woocommerce .upsells li.product .entry-header .button,
+.woocommerce .related li.product .entry-header .button,
+.woocommerce .cross-sells li.product .entry-header .button{
+    display: none;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
