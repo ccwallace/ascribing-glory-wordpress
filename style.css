@@ -464,6 +464,10 @@ nav, button, a, p{
 	text-transform: uppercase;
 }
 
+.woocommerce-product-details__short-description p{
+	font-family: cormorant !important;
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
