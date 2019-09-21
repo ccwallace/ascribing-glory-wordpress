@@ -453,12 +453,9 @@ mark, ins {
 big {
 	font-size: 125%;
 }
-nav, button, p, input, .side-nav, a.dropdown-button{
+nav, button, .btn, p, input, .side-nav, .dropdown-button{
 	font-family: raleway !important;
 	text-transform: uppercase;
-}
-.woocommerce-cart .wc-proceed-to-checkout {
-    display: block!important;
 }
 
 .btn a{
@@ -1017,9 +1014,7 @@ a:hover, a:active {
 	display: none !important;
 }
 
-.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
-    display: none !important;
-}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
