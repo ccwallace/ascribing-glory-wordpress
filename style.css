@@ -993,6 +993,10 @@ a:hover, a:active {
 	display: none !important;
 }
 
+#product-pagination .obfx-grid-footer {
+	display: none !important;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
