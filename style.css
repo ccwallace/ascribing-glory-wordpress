@@ -989,7 +989,7 @@ a:hover, a:active {
 }
 
 
-hide-read-more-btn{
+.hide-read-more-btn .obfx-grid-footer {
 	display: none !important;
 }
 
