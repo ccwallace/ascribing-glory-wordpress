@@ -320,8 +320,8 @@ textarea {
 	height: auto;
 }
 
-.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
-	color: black;
+.wc-proceed-to-checkout{
+	background-color: black;
 }
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
