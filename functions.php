@@ -209,15 +209,3 @@ function custom_woocommerce_product_add_to_cart_text(){
 
 }
 */
-
-// Remove "Select options" button from (variable) products on the main WooCommerce shop page.
-add_filter( 'woocommerce_loop_add_to_cart_link', function( $product ) {
-
-	global $product;
-
-	if ( is_shop() && 'variable' === $product->get_type() ) {
-		return '';
-	} else {
-		return '';
-	}
-} )
