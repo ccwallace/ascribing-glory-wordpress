@@ -758,7 +758,7 @@ a:hover, a:active {
 	color: black;
 }
 #product-pagination nav .current{
-	color: blue;
+	color: blue !important;
 }
 
 .rainbow-pens{
