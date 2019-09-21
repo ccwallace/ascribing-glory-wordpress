@@ -19,7 +19,7 @@ get_header();
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
-        <a class="waves-effect waves-light btn">Custom Orders</a>
+        <button class="waves-effect waves-light btn">Custom Orders</button>
       </div>
       <div class="col l4 m4 s12 center-align">
         <div class="card">
@@ -30,7 +30,7 @@ get_header();
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
-        <a class="waves-effect waves-light btn">Meet Alyssa</a>
+        <button class="waves-effect waves-light btn">Meet Alyssa</button>
       </div>
       <div class="col l4 m4 s12 center-align">
         <div class="card">
@@ -41,7 +41,7 @@ get_header();
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
         </p>
-        <a href="/about" class="waves-effect waves-light btn">Art Prints</a>
+        <button href="/about" class="waves-effect waves-light btn">Art Prints</button>
       </div>
     </div>
 
@@ -59,14 +59,14 @@ get_header();
       </div>
       <div class="col s4 center-align hide-on-med-and-down">
         <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
-        <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
+        <button class="waves-effect waves-light btn">Let's Tell Your Story</button>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
     </div>
 <div class="row">
   <div class="col s12 center-align hide-on-large-only">
     <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
-    <a class="waves-effect waves-light btn">Let's Tell Your Story</a>
+    <button class="waves-effect waves-light btn">Let's Tell Your Story</button>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   </div>
 </div>
