@@ -457,8 +457,8 @@ nav, button, p, input, .side-nav, a.dropdown-button{
 	font-family: raleway !important;
 	text-transform: uppercase;
 }
-#wc-stripe-payment-request-wrapper{
-	display: block !important;
+.woocommerce-cart .wc-proceed-to-checkout {
+    display: block!important;
 }
 
 .btn a{
