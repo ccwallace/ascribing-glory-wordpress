@@ -457,6 +457,9 @@ nav, button, p, input, .side-nav, a.dropdown-button{
 	font-family: raleway !important;
 	text-transform: uppercase;
 }
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button{
+	display: block !important;
+}
 
 .btn a{
 	font-family: raleway !important;
