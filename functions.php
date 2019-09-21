@@ -197,6 +197,7 @@ function ag_remove_product_tabs( $tabs ) {
     return $tabs;
 }
 */
+/*
 add_filter('woocommerce_product_add_to_cart_text', 'custom_woocommerce_product_add_to_cart_text');
 function custom_woocommerce_product_add_to_cart_text(){
 		global $product;
@@ -207,3 +208,4 @@ function custom_woocommerce_product_add_to_cart_text(){
 
 
 }
+*/
