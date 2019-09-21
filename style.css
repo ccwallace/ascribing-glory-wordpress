@@ -757,7 +757,7 @@ a:hover, a:active {
 	box-shadow: none;
 	color: black;
 }
-#product-pagination nav.current{
+#product-pagination nav .current{
 	color: blue;
 }
 
