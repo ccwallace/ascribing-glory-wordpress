@@ -454,7 +454,7 @@ big {
 	font-size: 125%;
 }
 nav, button, a, p{
-	font-family: raleway;
+	font-family: raleway !important;
 	text-transform: uppercase;
 }
 
