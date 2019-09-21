@@ -200,8 +200,11 @@ function ag_remove_product_tabs( $tabs ) {
 add_filter('woocommerce_product_add_to_cart_text', 'custom_woocommerce_product_add_to_cart_text');
 function custom_woocommerce_product_add_to_cart_text(){
 		global $product;
-
-		if($product->product_type == 'variable'){
-			return('View Options', 'woocommerce');
+		$product_type = $product->$product_type;
+		switch($product_type){
+			case: 'variable':
+				return ('View Options', 'woocommerce');
+				break;
 		}
+
 }
