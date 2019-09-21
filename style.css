@@ -453,7 +453,12 @@ mark, ins {
 big {
 	font-size: 125%;
 }
-nav, button, p, .btn{
+nav, button, p{
+	font-family: raleway !important;
+	text-transform: uppercase;
+}
+
+.btn a{
 	font-family: raleway !important;
 	text-transform: uppercase;
 }
