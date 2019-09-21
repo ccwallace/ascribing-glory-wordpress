@@ -757,6 +757,9 @@ a:hover, a:active {
 	box-shadow: none;
 	color: black;
 }
+#product-pagination nav.current{
+	color: blue;
+}
 
 .rainbow-pens{
   position: absolute;
