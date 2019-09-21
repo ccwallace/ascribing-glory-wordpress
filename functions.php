@@ -203,7 +203,7 @@ function custom_woocommerce_product_add_to_cart_text(){
 		$product_type = $product->$product_type;
 		switch($product_type){
 			case 'variable':
-				return ('View Options', 'woocommerce');
+				return __('View Options', 'woocommerce');
 				break;
 		}
 
