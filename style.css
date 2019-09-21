@@ -321,7 +321,7 @@ textarea {
 }
 
 .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
-	background-color: black;
+	background-color: black !important;
 }
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
