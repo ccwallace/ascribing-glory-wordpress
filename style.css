@@ -324,6 +324,14 @@ textarea {
 	background-color: black !important;
 
 }
+
+select.state_select{
+	display: block !important;
+}
+
+#place_order{
+	background-color: black !important;
+}
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
