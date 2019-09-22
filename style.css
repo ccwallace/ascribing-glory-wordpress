@@ -337,12 +337,7 @@ select.state_select{
 	background-color: black !important;
 }
 
-#ship-to-different-address-checkbox{
-	opacity:1 !important;
-	pointer-events: auto !important;
-}
-
-#createaccount{
+#ship-to-different-address-checkbox, #createaccount{
 	opacity:1 !important;
 	pointer-events: auto !important;
 	position: relative !important;
