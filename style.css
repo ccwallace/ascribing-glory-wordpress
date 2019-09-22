@@ -337,9 +337,15 @@ select.state_select{
 	background-color: black !important;
 }
 
-#ship-to-different-address-checkbox, #createaccount{
+#ship-to-different-address-checkbox{
 	opacity:1 !important;
 	pointer-events: auto !important;
+}
+
+#createaccount{
+	opacity:1 !important;
+	pointer-events: auto !important;
+	position: relative !important;
 }
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
