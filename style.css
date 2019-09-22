@@ -339,6 +339,7 @@ select.state_select{
 
 #ship-to-different-address-checkbox{
 	opacity:1 !important;
+	pointer-events: auto !important;
 }
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
