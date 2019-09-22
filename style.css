@@ -329,6 +329,10 @@ select.state_select{
 	display: block !important;
 }
 
+#billing_country_field {
+  display: none;
+}
+
 #place_order{
 	background-color: black !important;
 }
