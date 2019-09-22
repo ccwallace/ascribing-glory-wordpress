@@ -332,6 +332,10 @@ select.state_select{
 #place_order{
 	background-color: black !important;
 }
+
+#ship-to-different-address-checkbox{
+	opacity:1 !important;
+}
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
