@@ -209,3 +209,4 @@ function custom_woocommerce_product_add_to_cart_text(){
 
 }
 */
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
