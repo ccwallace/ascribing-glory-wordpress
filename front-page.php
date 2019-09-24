@@ -2,7 +2,7 @@
 get_header();
  ?>
  <div class="row">
-   <div class="col s12">
+   <div class="col l6 s12 push-l3 center-align">
      <h1 class="center-align">
        <i>Bringing beauty into your life to help you remember and embrace God's love for you</i>
      </h1>
@@ -47,15 +47,15 @@ get_header();
 
     <div class="row valign-wrapper collage-wrapper">
       <div class="col l8 s12">
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-1 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-2 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-3 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-4 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-5 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-6 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-7 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-8 z-depth-1 hoverable"></a>
-          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-9 z-depth-1 hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img hoverable"></a>
       </div>
       <div class="col s4 center-align hide-on-med-and-down">
         <h5>LOVE IS MEANT TO BE AN ADVENTURE</h5>
