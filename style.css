@@ -757,6 +757,9 @@ a:hover, a:active {
 		.responsive-text{
 				font-size: 20px;
 		}
+		.collage{
+			text-align: center;
+		}
 }
 
 @media screen
@@ -769,6 +772,9 @@ a:hover, a:active {
 		}
 		.responsive-text{
 			font-size: 14px;
+		}
+		.collage{
+			text-align: center;
 		}
 }
 
