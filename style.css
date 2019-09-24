@@ -670,7 +670,8 @@ img.collage{
 }
 .collage-3{
 	width: 25%;
-	bottom: 10px;
+	bottom: 30px;
+	right: 50px;
 	z-index: 1;
 }
 .collage-4{
