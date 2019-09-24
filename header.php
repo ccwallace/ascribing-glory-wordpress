@@ -27,7 +27,7 @@
 	<header id="masthead" class="site-header">
 		<div class="">
 			<div class="col s12">
-				<img class="responsive-img rainbow-pens" src="http://34.94.0.6/wp-content/uploads/2019/08/rainbow-pens-doubled.png" alt="Rainbow Pens"></img>
+				<img class="responsive-img rainbow-pens" src="<?php echo get_template_directory_uri(); ?>/img/website-banner.png" alt="Rainbow Pens"></img>
 			</div>
 			<div class="row">
 				<div class="col s6 push-s3">
