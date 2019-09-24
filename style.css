@@ -740,7 +740,7 @@ a:hover, a:active {
 }
 
 @media screen
-  and (max-device-width: 990px)
+  and (max-device-width: 501px)
   and (-webkit-min-device-pixel-ratio: 1)  {
     .ag-logo-main{
       padding-top: 14em;
@@ -754,9 +754,9 @@ a:hover, a:active {
 }
 
 @media screen
-  and (max-device-width: 989px){
+  and (max-device-width: 500px){
     .ag-logo-main{
-      padding-top: 4em;
+      padding-top: 5em;
     }
 		.instagram-row{
 			padding-top: 0em;
