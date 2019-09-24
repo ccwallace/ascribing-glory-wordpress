@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col s6 push-s3">
 					<a href="/home">
-						<img class="responsive-img ag-logo-main" src="http://34.94.0.6/wp-content/uploads/2019/08/ag-logo-transparent.png"></img>
+						<img class="responsive-img ag-logo-main" src="<?php  get_template_directory_uri() . '/img/website-logo.png'?>"></img>
 					</a>
 				</div>
 				<div class="col s4 offset-s8">
