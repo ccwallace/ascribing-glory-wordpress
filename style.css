@@ -658,46 +658,46 @@ img.collage{
 }
 
 .collage-1{
-	left: 75px;
-	top: 10px;
+	left: 0em;
+	top: 0em;
 	z-index: 2;
 }
 .collage-2{
-	top: 70px;
-	left: 30px;
+	top: 0em;
+	left: 0em;
 	z-index: 3;
 }
 .collage-3{
-	bottom: 30px;
-	right: 50px;
+	bottom: 0em;
+	right: 0em;
 	z-index: 1;
 }
 .collage-4{
-	bottom: 45px;
+	bottom: 0em;
 	z-index: 0;
 }
 .collage-5{
-	right: 45px;
-	bottom: 10px;
+	right: 0em;
+	bottom: 0em;
 	z-index: 4;
 }
 .collage-6{
-	top: 15px;
-	right: 20px;
+	top: 0em;
+	right: 0em;
 	z-index: 2;
 }
 .collage-7{
-	left: 60px;
+	left: 0em;
 	z-index: 1;
 }
 .collage-8{
-	bottom: 40px;
-	left: 15px;
+	bottom: 0em;
+	left: 0em;
 	z-index: 3;
 }
 .collage-9{
-	bottom: 50px;
-	left: 45px;
+	bottom: 0em;
+	left: 0em;
 	z-index: 1;
 }
 
