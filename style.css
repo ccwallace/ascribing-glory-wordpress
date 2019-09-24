@@ -658,13 +658,13 @@ img.collage{
 }
 
 .collage-1{
-	left: 0em;
-	top: 0em;
+	left: 4em;
+	top: 1em;
 	z-index: 2;
 }
 .collage-2{
-	top: 0em;
-	left: 0em;
+	top: 4em;
+	left:20em;
 	z-index: 3;
 }
 .collage-3{
