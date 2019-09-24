@@ -477,7 +477,6 @@ big {
 }
 nav, button, .btn, p, input, .side-nav, .dropdown-button{
 	font-family: raleway !important;
-	text-transform: uppercase;
 }
 
 .btn a{
