@@ -691,7 +691,7 @@ img.collage{
 	z-index: 1;
 }
 .collage-8{
-	bottom: 2em;
+	bottom: 4em;
 	left: 0em;
 	z-index: 3;
 }
@@ -742,6 +742,9 @@ a:hover, a:active {
 		.responsive-text{
 			font-size: 33px;
 		}
+		.collage-wrapper{
+			padding-top:100px;
+		}
 }
 
 @media screen
@@ -773,7 +776,8 @@ a:hover, a:active {
 		.responsive-text{
 			font-size: 14px;
 		}
-		.collage{
+		.collage-wrapper{
+			padding-top:60px;
 			text-align: center;
 		}
 }

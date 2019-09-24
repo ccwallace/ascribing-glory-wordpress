@@ -45,7 +45,7 @@ get_header();
       </div>
     </div>
 
-    <div class="row valign-wrapper" style="padding-top:100px;">
+    <div class="row valign-wrapper collage-wrapper">
       <div class="col l8 s12">
           <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-1 z-depth-1 hoverable"></a>
           <a href="#"><img src="<?php echo get_template_directory_uri();?>/img/pens-brushes-square.jpg" alt="" class="responsive-img collage collage-2 z-depth-1 hoverable"></a>
