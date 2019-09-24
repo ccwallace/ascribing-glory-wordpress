@@ -761,6 +761,7 @@ a:hover, a:active {
 				font-size: 20px;
 		}
 		.collage{
+			padding-top:60px;
 			text-align: center;
 		}
 }
