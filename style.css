@@ -776,7 +776,7 @@ a:hover, a:active {
 		.responsive-text{
 			font-size: 14px;
 		}
-		.collage-wrapper{
+		div.collage-wrapper{
 			padding-top:60px;
 			text-align: center;
 		}
