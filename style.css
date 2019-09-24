@@ -668,36 +668,36 @@ img.collage{
 	z-index: 3;
 }
 .collage-3{
-	bottom: 0em;
-	right: 0em;
+	bottom: 2em;
+	right: 2em;
 	z-index: 1;
 }
 .collage-4{
-	bottom: 0em;
+	bottom: 1em;
 	z-index: 0;
 }
 .collage-5{
-	right: 0em;
-	bottom: 0em;
+	right: 2em;
+	bottom: 2em;
 	z-index: 4;
 }
 .collage-6{
-	top: 0em;
-	right: 0em;
+	top: 1em;
+	right: 1.5em;
 	z-index: 2;
 }
 .collage-7{
-	left: 0em;
+	left: 4em;
 	z-index: 1;
 }
 .collage-8{
-	bottom: 0em;
+	bottom: 2em;
 	left: 0em;
 	z-index: 3;
 }
 .collage-9{
-	bottom: 0em;
-	left: 0em;
+	bottom: 2em;
+	left: .5em;
 	z-index: 1;
 }
 
