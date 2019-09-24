@@ -740,7 +740,7 @@ a:hover, a:active {
 }
 
 @media screen
-  and (max-device-width: 1366px)
+  and (min-device-width: 1366px)
   and (-webkit-min-device-pixel-ratio: 1)  {
     .ag-logo-main{
       padding-top: 14em;
@@ -767,12 +767,6 @@ a:hover, a:active {
 }
 
 /* ----------- Retina Screens ----------- */
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-resolution: 192dpi) {
-}
 
 #product-pagination nav{
 	background-color: transparent;
