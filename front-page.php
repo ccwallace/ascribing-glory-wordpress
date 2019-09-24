@@ -4,7 +4,7 @@ get_header();
  <div class="row">
    <div class="col s12">
      <h1 class="center-align">
-       <i>Creativity With A Purpose</i>
+       <i>Bringing beauty into your life to help you remember and embrace God's love for you</i>
      </h1>
    </div>
  </div>
@@ -17,9 +17,9 @@ get_header();
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          Bring your favorite Scripture, excouraging qoute, or sweet sentiment to life by working with Alyssa to create a one-of-a-kind artwork!
         </p>
-        <button class="waves-effect waves-light btn">Custom Orders</button>
+        <button class="waves-effect waves-light btn">Let's Create Together!</button>
       </div>
       <div class="col l4 m4 s12 center-align">
         <div class="card">
@@ -28,9 +28,9 @@ get_header();
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          I love that we've found this little corner of the Internet together!
         </p>
-        <button class="waves-effect waves-light btn">Meet Alyssa</button>
+        <button class="waves-effect waves-light btn">Let's Be Friends</button>
       </div>
       <div class="col l4 m4 s12 center-align">
         <div class="card">
@@ -39,9 +39,9 @@ get_header();
           </div>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          I firmly believe that Scripture belongs in every area of life - including adorning our walls!
         </p>
-        <button href="/about" class="waves-effect waves-light btn">Art Prints</button>
+        <button href="/about" class="waves-effect waves-light btn">Shop Art Prints</button>
       </div>
     </div>
 
