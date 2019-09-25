@@ -217,7 +217,7 @@ function product_enquiry_custom_form() {
     global $product, $post;
 
     // Set HERE your Contact Form 7 shortcode:
-    $contact_form_shortcode = '[contact-form-7 id="382" title="form"]';
+    $contact_form_shortcode = '[contact-form-7 id="1008" title="Semi-Custom Inquiry"]';
 
     // compatibility with WC +3
     $product_id = method_exists( $product, 'get_id' ) ? $product->get_id() : $product->id;
