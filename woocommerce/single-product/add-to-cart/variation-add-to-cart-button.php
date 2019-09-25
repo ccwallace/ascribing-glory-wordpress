@@ -27,7 +27,7 @@ global $product;
 	?>
 
 	<?php
-		echo the_tytle();
+		echo the_title();
 
 	 ?>
 
