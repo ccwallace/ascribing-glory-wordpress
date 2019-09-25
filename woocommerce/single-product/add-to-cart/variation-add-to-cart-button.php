@@ -26,6 +26,12 @@ global $product;
 	do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
 
+	<?php
+		echo the_tytle();
+
+	 ?>
+
+
 	<button type="submit" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
 	<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
