@@ -353,7 +353,7 @@
 					<?php endif; ?>
 
           <div class="col l4 m4 s12 center-align">
-            <input class="mailgun-list-submit-button" data-form-id="<?php echo $form_class_id; ?>" type="button"
+            <input class="mailgun-list-submit-button btn" data-form-id="<?php echo $form_class_id; ?>" type="button"
             value="Subscribe"/>
             <input type="hidden" name="mailgun-submission" value="1"/>
           </div>
