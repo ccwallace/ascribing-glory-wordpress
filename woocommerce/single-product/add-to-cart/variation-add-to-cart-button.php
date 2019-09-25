@@ -26,10 +26,9 @@ global $product;
 	do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
 
-	<?php
-		the_title();
-
-	 ?>
+	<?php if(strpos(the_title(), 'suite')) ?>
+		<h1>Hooray! You're on a suite product!</h1>
+	<?php endif; ?>
 
 
 	<button type="submit" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
