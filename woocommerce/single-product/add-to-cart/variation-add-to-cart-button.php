@@ -26,10 +26,10 @@ global $product;
 	do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
 
-	<?php if(strpos($product->get_title(), 'Invitations') == true) : ?>
+	<?php if(strpos($product->get_title(), 'Invitations') == false) : ?>
+		<button type="submit" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 	<?php endif; ?>
 
-	<button type="submit" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
 	<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 
