@@ -29,7 +29,7 @@ global $product;
 	<?php if(strpos(echo the_title(), 'suite') == true) : ?>
 		<h1>Hooray! You're on a suite product!</h1>
 	<?php endif; ?>
-
+<h1>Howdy!</h1>
 
 	<button type="submit" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
