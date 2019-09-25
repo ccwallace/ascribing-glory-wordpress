@@ -294,5 +294,5 @@ function product_enquiry_custom_form() {
 			})(jQuery);
 		</script>
 		}
-    <?php
 	}
+	<?php
