@@ -26,7 +26,7 @@ global $product;
 	do_action( 'woocommerce_after_add_to_cart_quantity' );
 	?>
 
-	<?php if(strpos(the_title(), 'suite')) ?>
+	<?php if(strpos(the_title(), 'suite')) : ?>
 		<h1>Hooray! You're on a suite product!</h1>
 	<?php endif; ?>
 
