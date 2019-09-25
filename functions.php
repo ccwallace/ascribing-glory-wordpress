@@ -215,84 +215,84 @@ add_action( 'woocommerce_after_add_to_cart_form', 'product_enquiry_custom_form' 
 function product_enquiry_custom_form() {
 
     global $product, $post;
+		if(strpos($product->get_title(), 'Invitations') == true){
+			// Set HERE your Contact Form 7 shortcode:
+			$contact_form_shortcode = '[contact-form-7 id="1008" title="Semi-Custom Inquiry"]';
 
-    // Set HERE your Contact Form 7 shortcode:
-    $contact_form_shortcode = '[contact-form-7 id="1008" title="Semi-Custom Inquiry"]';
+			// compatibility with WC +3
+			$product_id = method_exists( $product, 'get_id' ) ? $product->get_id() : $product->id;
+			$product_title = $post->post_title;
 
-    // compatibility with WC +3
-    $product_id = method_exists( $product, 'get_id' ) ? $product->get_id() : $product->id;
-    $product_title = $post->post_title;
+			// The email subject for the "Subject Field"
+			$email_subject = __( 'Enquire about', 'woocommerce' ) . ' ' . $product_title;
 
-    // The email subject for the "Subject Field"
-    $email_subject = __( 'Enquire about', 'woocommerce' ) . ' ' . $product_title;
-
-    foreach($product->get_available_variations() as $variation){
-        $variation_id = $variation['variation_id'];
-        foreach($variation['attributes'] as $key => $value){
-            $key = ucfirst( str_replace( 'attribute_pa_', '', $key ) );
-            $variations_attributes[$variation_id][$key] = $value;
-        }
-    }
-    // Just for testing the output of $variations_attributes
-    // echo '<pre>'; print_r( $variations_attributes ); echo '</pre>';
-
-
-    ## CSS INJECTED RULES ## (You can also remve this and add the CSS to the style.css file of your theme
-    ?>
-    <style>
-        .wpcf7-form-control-wrap.your-product{ opacity:0;width:0px;height:0px;overflow: hidden;display:block;margin:0;padding:0;}
-    </style>
-
-    <?php
+			foreach($product->get_available_variations() as $variation){
+				$variation_id = $variation['variation_id'];
+				foreach($variation['attributes'] as $key => $value){
+					$key = ucfirst( str_replace( 'attribute_pa_', '', $key ) );
+					$variations_attributes[$variation_id][$key] = $value;
+				}
+			}
+			// Just for testing the output of $variations_attributes
+			// echo '<pre>'; print_r( $variations_attributes ); echo '</pre>';
 
 
-    // Displaying the title for the form (optional)
-    echo '<h3>'.$email_subject.'</h3><br>
-        <div class="enquiry-form">' . do_shortcode( $contact_form_shortcode ) . '</div>';
+			## CSS INJECTED RULES ## (You can also remve this and add the CSS to the style.css file of your theme
+			?>
+			<style>
+			.wpcf7-form-control-wrap.your-product{ opacity:0;width:0px;height:0px;overflow: hidden;display:block;margin:0;padding:0;}
+			</style>
+
+			<?php
 
 
-    ## THE JQUERY SCRIPT ##
-    ?>
-    <script>
-        (function($){
+			// Displaying the title for the form (optional)
+			echo '<h3>'.$email_subject.'</h3><br>
+			<div class="enquiry-form">' . do_shortcode( $contact_form_shortcode ) . '</div>';
 
-            <?php
-                // Passing the product variations attributes array to javascript
-                $js_array = json_encode($variations_attributes);
-                echo 'var $variationsAttributes = '. $js_array ;
-            ?>
 
-            // Displaying the subject in the subject field
-            $('.product_name').val('<?php echo $email_subject; ?>');
+			## THE JQUERY SCRIPT ##
+			?>
+			<script>
+			(function($){
 
-            ////////// ATTRIBUTES VARIATIONS SECTION ///////////
+				<?php
+				// Passing the product variations attributes array to javascript
+				$js_array = json_encode($variations_attributes);
+				echo 'var $variationsAttributes = '. $js_array ;
+				?>
 
-            var $attributes;
+				// Displaying the subject in the subject field
+				$('.product_name').val('<?php echo $email_subject; ?>');
 
-            $('td.value select').blur(function() {
-                var $variationId = $('input[name="variation_id"]').val();
-                // console.log('variationId: '+$variationId);
-                if (typeof $variationId !== 'undefined' ){
-                    for(key in $variationsAttributes){
-                        if( key == $variationId ){
-                            $attributes = $variationsAttributes[key];
-                            break;
-                        }
-                    }
+				////////// ATTRIBUTES VARIATIONS SECTION ///////////
 
-                }
-                if ( typeof $attributes !== 'undefined' ){
-                    // console.log('Attributes: '+JSON.stringify($attributes));
-                    var $attributesString = '';
-                    for(var attrKey in $attributes){
-                        $attributesString += ' ' + attrKey + ': ' + $attributes[attrKey] + ' — ';
-                    }
-                   $('.product_details').val( 'Product <?php echo $product_title; ?> (ID <?php echo $product_id; ?>): ' + $attributesString );
-                }
-            });
+				var $attributes;
 
-        })(jQuery);
-    </script>
+				$('td.value select').blur(function() {
+					var $variationId = $('input[name="variation_id"]').val();
+					// console.log('variationId: '+$variationId);
+					if (typeof $variationId !== 'undefined' ){
+						for(key in $variationsAttributes){
+							if( key == $variationId ){
+								$attributes = $variationsAttributes[key];
+								break;
+							}
+						}
 
+					}
+					if ( typeof $attributes !== 'undefined' ){
+						// console.log('Attributes: '+JSON.stringify($attributes));
+						var $attributesString = '';
+						for(var attrKey in $attributes){
+							$attributesString += ' ' + attrKey + ': ' + $attributes[attrKey] + ' — ';
+						}
+						$('.product_details').val( 'Product <?php echo $product_title; ?> (ID <?php echo $product_id; ?>): ' + $attributesString );
+					}
+				});
+
+			})(jQuery);
+		</script>
+		}
     <?php
 	}
