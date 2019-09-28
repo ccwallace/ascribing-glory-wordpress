@@ -106,6 +106,9 @@
 } )();
 
 $( document ).ready(function(){
+  $('.modal').modal();
+  $('.dropdown-trigger').dropdown();
+
   $(".button-collapse").sideNav({
     edge:'right'
   });

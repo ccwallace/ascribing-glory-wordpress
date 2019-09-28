@@ -49,12 +49,10 @@
 		</div>
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
-	<ul id="dropdown2" class="dropdown-content">
-		<li><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
-		<li><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
-	</ul>
-
-
+		<ul id="dropdown2" class="dropdown-content">
+			<li><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
+			<li><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
