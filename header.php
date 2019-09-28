@@ -49,6 +49,12 @@
 		</div>
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
+	<ul id="dropdown2" class="dropdown-content">
+		<li><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
+		<li><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+	</ul>
+
+
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
@@ -56,7 +62,7 @@
           <ul>
             <li><a class="black-text" href="/home">HOME</a></li>
             <li><a class="black-text" href="/about">ABOUT</a></li>
-            <li><a class="black-text" href="/weddings">WEDDINGS</a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/resources">RESOURCES</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
