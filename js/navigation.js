@@ -110,5 +110,5 @@ $( document ).ready(function(){
     edge:'right'
   });
 
-  $(".dropdown-button").dropdown();
+  $(".dropdown-button").dropdown({hover: true});
 })
