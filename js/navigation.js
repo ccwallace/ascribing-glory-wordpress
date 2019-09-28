@@ -111,4 +111,6 @@ $( document ).ready(function(){
   });
 
   $(".dropdown-button").dropdown({hover: true});
+
+  $('.carousel.carousel-slider').carousel({fullWidth: true});
 })
