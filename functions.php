@@ -79,9 +79,12 @@ if ( ! function_exists( 'ascribing_glory_setup' ) ) :
 			'flex-width'  => true,
 			'flex-height' => true,
 		) );
+
+		add_theme_support( 'wc-product-gallery-zoom' );
+		add_theme_support( 'wc-product-gallery-lightbox' );
+		add_theme_support( 'wc-product-gallery-slider' );
 	}
 endif;
-add_action( 'after_setup_theme', 'ascribing_glory_setup' );
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
@@ -296,14 +299,3 @@ function product_enquiry_custom_form() {
 		<?php
 		}
 	}
-
-	// Update WooCommerce Flexslider options
-
-add_filter( 'woocommerce_single_product_carousel_options', 'ud_update_woo_flexslider_options' );
-
-function ud_update_woo_flexslider_options( $options ) {
-
-    $options['directionNav'] = true;
-
-    return $options;
-}
