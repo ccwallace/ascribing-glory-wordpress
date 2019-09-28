@@ -33,14 +33,13 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
 	'images',
 ) );
 ?>
-<div class="<?php echo esc_attr( implode( ' ', array_map( 'sanitize_html_class', $wrapper_classes ) ) ); ?>" data-columns="<?php echo esc_attr( $columns ); ?>" style="opacity: 0; transition: opacity .25s ease-in-out;">
-	<div class="carousel carousel-slider">
+	<div class="carousel">
 		<?php
 		if ( $product->get_image_id() ) {
 			$html = wc_get_gallery_image_html( $post_thumbnail_id, true );
 		} else {
 			$html  = '<a class="carousel-item">';
-			$html .= sprintf( '<img src="%s" alt="%s" class="wp-post-image" />', esc_url( wc_placeholder_img_src( 'woocommerce_single' ) ), esc_html__( 'Awaiting product image', 'woocommerce' ) );
+			$html .= sprintf( '<img src="%s" alt="%s" class="" />', esc_url( wc_placeholder_img_src( 'woocommerce_single' ) ), esc_html__( 'Awaiting product image', 'woocommerce' ) );
 			$html .= '</a>';
 		}
 
@@ -49,4 +48,3 @@ $wrapper_classes   = apply_filters( 'woocommerce_single_product_image_gallery_cl
 		do_action( 'woocommerce_product_thumbnails' );
 		?>
 	</div>
-</div>
