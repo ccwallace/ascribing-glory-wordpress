@@ -1226,7 +1226,8 @@ margin: 0
 
 .woocommerce-product-gallery .woocommerce-product-gallery__image:nth-child(n+2) {
 width: 25%;
-display: inline-block
+display: inline-block;
+padding: 5px;
 }
 
 .woocommerce-product-gallery .flex-control-thumbs li {

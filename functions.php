@@ -303,3 +303,13 @@ function product_enquiry_custom_form() {
 	add_theme_support( 'wc-product-gallery-zoom' );
 	add_theme_support( 'wc-product-gallery-lightbox' );
 	add_theme_support( 'wc-product-gallery-slider' );
+	// Update WooCommerce Flexslider options
+
+	add_filter( 'woocommerce_single_product_carousel_options', 'ud_update_woo_flexslider_options' );
+
+	function ud_update_woo_flexslider_options( $options ) {
+
+	    $options['directionNav'] = true;
+
+	    return $options;
+	}
