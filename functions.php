@@ -296,3 +296,7 @@ function product_enquiry_custom_form() {
 		<?php
 		}
 	}
+
+add_filter ('woocommerce_get_image_size_gallery_thumbnail', function($size) {
+	return array ( 'width' => 124,'height'=> 124, 'crop' => 0, );
+});
