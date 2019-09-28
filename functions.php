@@ -296,3 +296,14 @@ function product_enquiry_custom_form() {
 		<?php
 		}
 	}
+
+	// Update WooCommerce Flexslider options
+
+add_filter( 'woocommerce_single_product_carousel_options', 'ud_update_woo_flexslider_options' );
+
+function ud_update_woo_flexslider_options( $options ) {
+
+    $options['directionNav'] = true;
+
+    return $options;
+}
