@@ -320,12 +320,3 @@ function iconic_format_price_range( $price, $from, $to ) {
 }
 
 add_filter( 'woocommerce_format_price_range', 'iconic_format_price_range', 10, 3 );
-
-function modify_jquery() {
-if (!is_admin()) {
-	wp_deregister_script('jquery');
-	wp_register_script('jquery', 'https://code.jquery.com/jquery-1.11.3.min.js');
-	wp_enqueue_script('jquery');
-}
-}
-add_action('init', 'modify_jquery');
