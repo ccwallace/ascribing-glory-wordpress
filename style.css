@@ -1338,3 +1338,7 @@ a.flex-prev::before {
     content: 'arrow_forward';
     font-family: material-icons;    margin-left: 10px;font-size: 70px;}
 */
+
+.woocommerce-error::before{
+	display: none;
+}
