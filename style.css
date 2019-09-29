@@ -1339,6 +1339,6 @@ a.flex-prev::before {
     font-family: material-icons;    margin-left: 10px;font-size: 70px;}
 */
 
-.woocommerce-error::before{
-	display: none;
+.woocommerce-error{
+	padding-left: 3em !important;
 }
