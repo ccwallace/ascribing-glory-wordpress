@@ -1319,3 +1319,11 @@ ul.flex-direction-nav {
 
 li.flex-nav-prev {float: left;}
 li.flex-nav-next {float: right;}
+a.flex-next {visibility:hidden;}
+a.flex-prev {visibility:hidden;}
+a.flex-next::after {visibility:visible;content: 'arrow_back';
+    font-family: material-icons;margin-right: 10px;font-size: 70px;    }
+a.flex-prev::before {
+    visibility:visible;
+    content: 'arrow_forward';
+    font-family: material-icons;    margin-left: 10px;font-size: 70px;}
