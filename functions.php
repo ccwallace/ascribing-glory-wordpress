@@ -227,7 +227,7 @@ function product_enquiry_custom_form() {
 			$product_title = $post->post_title;
 
 			// The email subject for the "Subject Field"
-			$email_subject = __( 'Enquire about', 'woocommerce' ) . ' ' . $product_title;
+			$email_subject = __( 'Inquire about', 'woocommerce' ) . ' ' . $product_title;
 
 			foreach($product->get_available_variations() as $variation){
 				$variation_id = $variation['variation_id'];
