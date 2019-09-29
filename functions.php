@@ -214,7 +214,7 @@ function custom_woocommerce_product_add_to_cart_text(){
 */
 add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
 
-
+/*
 add_action( 'woocommerce_after_add_to_cart_form', 'product_enquiry_custom_form' );
 function product_enquiry_custom_form() {
 
@@ -299,7 +299,7 @@ function product_enquiry_custom_form() {
 		</script>
 		<?php
 		}
-	}
+	}*/
 
 	add_theme_support( 'wc-product-gallery-zoom' );
 	add_theme_support( 'wc-product-gallery-lightbox' );
