@@ -337,7 +337,7 @@ select.state_select{
 	background-color: black !important;
 }
 
-#ship-to-different-address-checkbox, #createaccount{
+#ship-to-different-address-checkbox, #createaccount, .ppom-check-input{
 	opacity:1 !important;
 	pointer-events: auto !important;
 	position: relative !important;
