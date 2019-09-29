@@ -1308,7 +1308,7 @@ line-height: 2;
 text-indent: 0;
 }
 
-.flex-control-nav flex-control-thumbs li{
+ol.flex-control-nav flex-control-thumbs li{
 	padding: 5px;
 }
 
