@@ -316,7 +316,7 @@ function product_enquiry_custom_form() {
 	}
 */
 function iconic_format_price_range( $price, $from, $to ) {
-    return sprintf( '%s: %s', __( 'From', 'iconic' ), wc_price( $from ) );
+    return sprintf( '%s %s', __( 'from', 'iconic' ), wc_price( $from ) );
 }
 
 add_filter( 'woocommerce_format_price_range', 'iconic_format_price_range', 10, 3 );

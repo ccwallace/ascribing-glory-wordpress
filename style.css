@@ -1312,6 +1312,10 @@ ol.flex-control-nav flex-control-thumbs li{
 	padding: 5px;
 }
 
+p.price{
+	font-style: italic !important;
+}
+
 /*
 ul.flex-direction-nav {
     position: absolute;
