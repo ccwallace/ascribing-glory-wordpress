@@ -315,3 +315,8 @@ function product_enquiry_custom_form() {
 	    return $options;
 	}
 */
+function iconic_format_price_range( $price, $from, $to ) {
+    return sprintf( '%s: %s', __( 'From', 'iconic' ), wc_price( $from ) );
+}
+
+add_filter( 'woocommerce_format_price_range', 'iconic_format_price_range', 10, 3 );
