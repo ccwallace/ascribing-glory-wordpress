@@ -1307,6 +1307,8 @@ content: "\f00e";
 line-height: 2;
 text-indent: 0;
 }
+
+/*
 ul.flex-direction-nav {
     position: absolute;
     top: 30%;
@@ -1327,3 +1329,4 @@ a.flex-prev::before {
     visibility:visible;
     content: 'arrow_forward';
     font-family: material-icons;    margin-left: 10px;font-size: 70px;}
+*/
