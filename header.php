@@ -53,6 +53,10 @@
 			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
 			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
 		</ul>
+		<ul id="dropdown3" class="dropdown-content">
+			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
+			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
@@ -60,7 +64,7 @@
           <ul>
             <li><a class="black-text" href="/home">HOME</a></li>
             <li><a class="black-text" href="/about">ABOUT</a></li>
-            <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown3">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/resources">RESOURCES</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/login">SIGN IN</a></li>
