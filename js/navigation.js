@@ -110,7 +110,7 @@ $( document ).ready(function(){
     edge:'right'
   });
 
-  $(".dropdown-button").dropdown({hover: true});
+  $(".dropdown-button").dropdown();
 
   $('.carousel').carousel();
 })
