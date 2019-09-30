@@ -841,6 +841,7 @@ a:hover, a:active {
 .rainbow-pens{
   position: absolute;
   z-index: -1;
+	max-height: 85%;
 }
 
 .nav-center ul {
