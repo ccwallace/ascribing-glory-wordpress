@@ -1342,3 +1342,6 @@ a.flex-prev::before {
 .woocommerce-error{
 	padding-left: 3em !important;
 }
+.ppom-rendering-fields{
+	display: grid !important;
+}
