@@ -321,3 +321,9 @@ function iconic_format_price_range( $price, $from, $to ) {
 }
 
 add_filter( 'woocommerce_format_price_range', 'iconic_format_price_range', 10, 3 );
+
+function displayTodaysDate( $atts ){
+
+	return date(get_option('date_format'));
+}
+add_shortcode( 'datetoday', 'displayTodaysDate');
