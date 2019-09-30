@@ -50,6 +50,8 @@ if ( $product->is_in_stock() ) : ?>
 		}
 		?>
 
+		<?php echo 	$cart_btn_disabled = ppom_get_option('ppom-enf-disabled-cart');?>
+
 		<?php if($ppom_is_active == 'off'): ?>
 			<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 		<?php endif; ?>
