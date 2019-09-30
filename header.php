@@ -49,7 +49,7 @@
 		</div>
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
-		<ul id="dropdown2" class="dropdown-content">
+		<ul id="dropdown1" class="dropdown-content">
 			<li><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
 			<li><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
 		</ul>
@@ -60,7 +60,7 @@
           <ul>
             <li><a class="black-text" href="/home">HOME</a></li>
             <li><a class="black-text" href="/about">ABOUT</a></li>
-            <li><a class="dropdown-button black-text" data-activates="dropdown2" data-beloworigin="true">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown1">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/resources">RESOURCES</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/login">SIGN IN</a></li>
