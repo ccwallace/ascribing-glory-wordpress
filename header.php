@@ -50,12 +50,12 @@
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
 		<ul id="dropdown2" class="dropdown-content">
-			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
-			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+			<li><a href="/semi-custom-invitations" class="black-text">SEMI-CUSTOM INVITATIONS</a></li>
+			<li><a href="/envelope-addressing" class="black-text">ENVELOPE ADDRESSING</a></li>
 		</ul>
 		<ul id="dropdown3" class="dropdown-content">
-			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
-			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+			<li><a href="/semi-custom-invitations" class="black-text">SEMI-CUSTOM INVITATIONS</a></li>
+			<li><a href="/envelope-addressing" class="black-text">ENVELOPE ADDRESSING</a></li>
 		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
