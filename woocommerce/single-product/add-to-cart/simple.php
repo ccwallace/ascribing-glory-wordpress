@@ -18,6 +18,10 @@
 defined( 'ABSPATH' ) || exit;
 
 global $product;
+$product_id = ppom_get_product_id( $product );
+
+// check if enquriy form is enable
+$ppom_is_active  = get_post_meta($product_id, 'ppom_enf_enable', true);
 
 if ( ! $product->is_purchasable() ) {
 	return;
@@ -33,7 +37,7 @@ if ( $product->is_in_stock() ) : ?>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
 		<?php
-		if(strpos($product->get_title(), 'Invitations') == false || strpos($product->get_title(), 'Custom Lettering') == false){
+		if($ppom_is_active == 'off'){
 			do_action( 'woocommerce_before_add_to_cart_quantity' );
 
 			woocommerce_quantity_input( array(
@@ -46,7 +50,7 @@ if ( $product->is_in_stock() ) : ?>
 		}
 		?>
 
-		<?php if(strpos($product->get_title(), 'Invitations') == false || strpos($product->get_title(), 'Custom Lettering') == false): ?>
+		<?php if($ppom_is_active == 'off'): ?>
 			<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 		<?php endif; ?>
 
