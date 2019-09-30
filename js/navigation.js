@@ -106,7 +106,7 @@
 } )();
 
 $( document ).ready(function(){
-  $(".dropdown-button").dropdown({hover: true});
+  $(".dropdown-button").dropdown();
 
   $(".button-collapse").sideNav({
     edge:'right'
