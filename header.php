@@ -50,8 +50,8 @@
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
 		<ul id="dropdown1" class="dropdown-content">
-			<li><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
-			<li><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
+			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
 		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
