@@ -56,7 +56,7 @@
           <ul>
             <li><a class="black-text" href="/home">HOME</a></li>
             <li><a class="black-text" href="/about">ABOUT</a></li>
-            <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown1">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/resources">RESOURCES</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/login">SIGN IN</a></li>
@@ -66,7 +66,7 @@
         </div>
       </div>
     </nav>
-		<ul id="dropdown1" class="dropdown-content">
+		<ul id="dropdown2" class="dropdown-content">
 			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
 			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
 		</ul>
@@ -74,7 +74,7 @@
 			<ul class="side-nav right-aligned" id="mobile-demo">
 				<li><a href="/home">HOME</a></li>
 				<li><a href="/about">ABOUT</a></li>
-				<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown1">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="/resources">RESOURCES</a></li>
 				<li><a href="/shop-main">SHOP</a></li>
 				<li><a href="/login">SIGN IN</a></li>
