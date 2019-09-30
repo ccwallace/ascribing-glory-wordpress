@@ -49,10 +49,6 @@
 		</div>
 	</header><!-- #masthead -->
 		<!--BEGIN NAVIGATION -->
-		<ul id="dropdown1" class="dropdown-content">
-			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
-			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
-		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
@@ -70,6 +66,10 @@
         </div>
       </div>
     </nav>
+		<ul id="dropdown1" class="dropdown-content">
+			<li class="black-text"><a href="/semi-custom-invitations">SEMI-CUSTOM INVITATIONS</a></li>
+			<li class="black-text"><a href="/envelope-addressing">ENVELOPE ADDRESSING</a></li>
+		</ul>
 		<div class="nav-wrapper">
 			<ul class="side-nav right-aligned" id="mobile-demo">
 				<li><a href="/home">HOME</a></li>
