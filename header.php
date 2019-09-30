@@ -67,7 +67,7 @@
             <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown3">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/resources">RESOURCES</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
-						<li><a class="black-text" href="/login">SIGN IN</a></li>
+						<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
 						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
           </ul>
@@ -81,7 +81,7 @@
 				<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="/resources">RESOURCES</a></li>
 				<li><a href="/shop-main">SHOP</a></li>
-				<li><a href="/login">SIGN IN</a></li>
+				<li><a href="/my-account">MY ACCOUNT</a></li>
 				<li><a href="/contact">CONTACT</a></li>
 			</ul>
 		</div>
