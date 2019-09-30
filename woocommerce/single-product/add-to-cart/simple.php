@@ -37,7 +37,9 @@ if ( $product->is_in_stock() ) : ?>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
 		<?php
-		if($ppom_is_active == 'off'){
+		if($ppom_is_active == 'on'){
+			//don't do anything
+		}else{
 			do_action( 'woocommerce_before_add_to_cart_quantity' );
 
 			woocommerce_quantity_input( array(
@@ -47,12 +49,11 @@ if ( $product->is_in_stock() ) : ?>
 			) );
 
 			do_action( 'woocommerce_after_add_to_cart_quantity' );
+
 		}
 		?>
-
-		<?php echo 	$ppom_is_active;?>
-
-		<?php if($ppom_is_active == 'off'): ?>
+		<?php if($ppom_is_active == 'on') : ?>
+		<?php else : ?>
 			<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 		<?php endif; ?>
 
