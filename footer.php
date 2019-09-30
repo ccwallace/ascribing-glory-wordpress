@@ -24,6 +24,7 @@
 						<li><a class="black-text" href="/weddings">WEDDINGS</a></li>
 						<li><a class="black-text" href="/resources">RESOURCES</a></li>
 						<li><a class="black-text" href="/shop-main">SHOP</a></li>
+						<li><a class="black-text" href="/login">SIGN IN</a></li>
 						<li><a class="black-text" href="/contact">CONTACT</a></li>
 					</ul>
 					<div class="hide-on-med-and-up">
@@ -41,6 +42,7 @@
 								<ul class="hide-on-med-and-up">
 									<li><a class="black-text" href="/resources">RESOURCES</a></li>
 									<li><a class="black-text" href="/shop-main">SHOP</a></li>
+									<li><a class="black-text" href="/login">SIGN IN</a></li>
 									<li><a class="black-text" href="/contact">CONTACT</a></li>
 								</ul>
 							</div>
