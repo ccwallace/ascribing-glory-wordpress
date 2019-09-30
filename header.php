@@ -60,9 +60,10 @@
           <ul>
             <li><a class="black-text" href="/home">HOME</a></li>
             <li><a class="black-text" href="/about">ABOUT</a></li>
-            <li><a class="dropdown-button black-text" data-beloworigin="true" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button black-text" data-activates="dropdown2" data-beloworigin="true">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/resources">RESOURCES</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
+						<li><a class="black-text" href="/shop-main">SIGN IN</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
 						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
           </ul>
