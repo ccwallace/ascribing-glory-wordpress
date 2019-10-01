@@ -1386,3 +1386,6 @@ a.flex-prev::before {
 .woocommerce-MyAccount-navigation-link a{
 	color: black !important;
 }
+.ppom-option-total-price{
+	display: none !important;
+}
