@@ -37,7 +37,7 @@ if ( $product->is_in_stock() ) : ?>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 
 		<?php
-		if($ppom_is_active == 'on'){
+		if(strpos($product->get_title()), 'Invitations') == true){
 			//don't do anything
 		}else{
 			do_action( 'woocommerce_before_add_to_cart_quantity' );
@@ -52,7 +52,7 @@ if ( $product->is_in_stock() ) : ?>
 
 		}
 		?>
-		<?php if($ppom_is_active == 'on') : ?>
+		<?php if(strpos($product->get_title()), 'Invitations') == true) : ?>
 		<?php else : ?>
 			<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 		<?php endif; ?>
