@@ -61,7 +61,7 @@
 		</nav>
 		<div class="row">
 			<div class="col s12 center-align">
-				<h5><a href="https://kortneyboyettphotography.com/">All pictures by Kortney Boyett Photography</a></h5>
+				<h6><a href="https://kortneyboyettphotography.com/" target="_blank">All pictures by Kortney Boyett Photography</a></h6>
 			</div>
 		</div>
 	</footer><!-- #colophon -->
