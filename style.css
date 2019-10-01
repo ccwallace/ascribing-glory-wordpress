@@ -1354,3 +1354,9 @@ a.flex-prev::before {
 .ppom-rendering-fields{
 	display: grid !important;
 }
+.woocommerce-MyAccount-navigation{
+	background-color: transparent !important;
+}
+.woocommerce-MyAccount-navigation-link a{
+	color: black !important;
+}
