@@ -35,11 +35,11 @@
 						<img class="responsive-img ag-logo-main" src="<?php echo get_template_directory_uri(); ?>/img/website-logo.png"></img>
 					</a>
 				</div>
-				<div class="col s4 offset-s8">
+				<div class="col s4 offset-s8 hide-on-large-only">
 					<nav class="transparent z-depth-0">
 						<div class="nav-wrapper">
 							<ul class="right">
-								<li class="no-padding hide-on-large-only"><a href="/cart" class="no-padding"><i class="material-icons black-text">shopping_cart</i></a></li>
+								<li class="no-padding"><a href="/cart" class="no-padding"><i class="material-icons black-text">shopping_cart</i></a></li>
 								<li class="no-padding"><a href="#" data-activates="mobile-demo" class="button-collapse no-padding"><i class="material-icons black-text">menu</i></a></li>
 							</ul>
 						</div>
