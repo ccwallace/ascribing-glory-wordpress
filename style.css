@@ -752,6 +752,19 @@ a:hover, a:active {
 		.collage-wrapper{
 			padding-top:100px;
 		}
+		.mailgun-list-widget-inputs{
+			display: inline;
+			padding-right: 2em;
+		}
+		.mailgun-list-widget-name{
+			width: 40%;
+			display: inline-block;
+		}
+		.mailgun-list-widget-email{
+			width: 40%;
+			display: inline-block;
+			padding-left: 2em;
+		}
 }
 
 @media screen
@@ -770,6 +783,19 @@ a:hover, a:active {
 		.collage{
 			padding-top:60px;
 			text-align: center;
+		}
+		.mailgun-list-widget-inputs{
+			display: inline;
+			padding-right: 2em;
+		}
+		.mailgun-list-widget-name{
+			width: 40%;
+			display: inline-block;
+		}
+		.mailgun-list-widget-email{
+			width: 40%;
+			display: inline-block;
+			padding-left: 2em;
 		}
 }
 
