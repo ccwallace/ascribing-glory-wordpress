@@ -65,7 +65,7 @@
             <li><a class="black-text" href="/home">HOME</a></li>
             <li><a class="black-text" href="/about">ABOUT</a></li>
             <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown3">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="black-text" href="/resources">RESOURCES</a></li>
+            <li><a class="black-text" href="/shop-workshops">WORKSHOPS</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
@@ -79,7 +79,7 @@
 				<li><a href="/home">HOME</a></li>
 				<li><a href="/about">ABOUT</a></li>
 				<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
-				<li><a href="/resources">RESOURCES</a></li>
+				<li><a href="/shop-workshops">WORKSHOPS</a></li>
 				<li><a href="/shop-main">SHOP</a></li>
 				<li><a href="/my-account">MY ACCOUNT</a></li>
 				<li><a href="/contact">CONTACT</a></li>

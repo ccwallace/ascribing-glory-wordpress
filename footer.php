@@ -22,7 +22,7 @@
 						<li><a class="black-text" href="/home">HOME</a></li>
 						<li><a class="black-text" href="/about">ABOUT</a></li>
 						<li><a class="black-text" href="/weddings">WEDDINGS</a></li>
-						<li><a class="black-text" href="/resources">RESOURCES</a></li>
+						<li><a class="black-text" href="/shop-workshops">WORKSHOPS</a></li>
 						<li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
 						<li><a class="black-text" href="/contact">CONTACT</a></li>
@@ -40,7 +40,7 @@
 						<div class="row">
 							<div class="col s12">
 								<ul class="hide-on-med-and-up">
-									<li><a class="black-text" href="/resources">RESOURCES</a></li>
+									<li><a class="black-text" href="/shop-workshops">WORKSHOPS</a></li>
 									<li><a class="black-text" href="/shop-main">SHOP</a></li>
 									<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
 									<li><a class="black-text" href="/contact">CONTACT</a></li>
