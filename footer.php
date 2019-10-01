@@ -59,12 +59,16 @@
 				</div>
 			</div>
 		</nav>
-		<div class="row">
-			<div class="col s12 center-align">
-				<h6><a href="https://kortneyboyettphotography.com/" target="_blank">All pictures by Kortney Boyett Photography</a></h6>
-			</div>
-		</div>
+
+
+
+
 	</footer><!-- #colophon -->
+	<div class="row">
+		<div class="col s12 center-align">
+			<h6><a href="https://kortneyboyettphotography.com/" target="_blank">All pictures by Kortney Boyett Photography</a></h6>
+		</div>
+	</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
