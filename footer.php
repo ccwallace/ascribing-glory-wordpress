@@ -15,13 +15,21 @@
 
 	<footer id="colophon" class="site-footer">
 		<!--BEGIN FOOTER NAVIGATION -->
+		<ul id="dropdown4" class="dropdown-content">
+			<li><a href="/semi-custom-invitations" class="black-text">SEMI-CUSTOM INVITATIONS</a></li>
+			<li><a href="/envelope-addressing" class="black-text">ENVELOPE ADDRESSING</a></li>
+		</ul>
+		<ul id="dropdown5" class="dropdown-content">
+			<li><a href="/semi-custom-invitations" class="black-text">SEMI-CUSTOM INVITATIONS</a></li>
+			<li><a href="/envelope-addressing" class="black-text">ENVELOPE ADDRESSING</a></li>
+		</ul>
 		<nav class="z-depth-0 transparent">
 			<div class="nav-wrapper">
 				<div class="nav-center">
 					<ul class="hide-on-small-only">
 						<li><a class="black-text" href="/home">HOME</a></li>
 						<li><a class="black-text" href="/about">ABOUT</a></li>
-						<li><a class="black-text" href="/weddings">WEDDINGS</a></li>
+						<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown5">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 						<li><a class="black-text" href="/shop-workshops">WORKSHOPS</a></li>
 						<li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
@@ -33,7 +41,7 @@
 								<ul class="hide-on-med-and-up">
 									<li><a class="black-text" href="/home">HOME</a></li>
 									<li><a class="black-text" href="/about">ABOUT</a></li>
-									<li><a class="black-text" href="/weddings">WEDDINGS</a></li>
+									<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown4">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 								</ul>
 							</div>
 						</div>
