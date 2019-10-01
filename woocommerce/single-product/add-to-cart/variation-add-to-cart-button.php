@@ -28,7 +28,7 @@ global $product;
 
 	<?php if(strpos($product->get_title(), 'Invitations') == false) : ?>
 	<?php endif; ?>
-	<button type="submit" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+	<button type="submit" class="btn" style="backbackground-color: #8cdbd4;"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 
 
 	<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>

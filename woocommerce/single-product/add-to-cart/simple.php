@@ -54,7 +54,7 @@ if ( $product->is_in_stock() ) : ?>
 		?>
 		<?php if($ppom_is_active == 'on') : ?>
 		<?php else : ?>
-			<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn blue"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+			<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="btn" style="backbackground-color: #8cdbd4;"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
 		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
