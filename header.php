@@ -89,7 +89,7 @@
 		<?php
 			global $wp;
 
-			if(strpos(home_url($wp->request), 'shop') == true or strpos(home_url($wp->request), 'products') == true){
+			if((strpos(home_url($wp->request), 'shop') == true || strpos(home_url($wp->request), 'products') == true) && strpos(home_url($wp->request), 'workshops') == false){
 				echo get_template_part('shop-menu');
 			}
 		?>
