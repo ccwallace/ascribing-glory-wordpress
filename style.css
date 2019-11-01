@@ -1396,4 +1396,7 @@ tr.ppom-option-price-list.ppom-option-total-price{
 .woocommerce-store-notice__dismiss-link{
 	background-color: lightseagreen !important;
 	color: black !important;
+	padding-left: 10px !important;
+	font-family: material icons !important;
+	content: 'close' !important;
 }
