@@ -46,7 +46,7 @@ do_action( 'woocommerce_before_account_navigation' );
 <nav class = "z-depth-0 transparent hide-on-large-only">
   <div class="nav-wrapper">
     <ul class="">
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown6">Account Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+      <li><a class="dropdown-button black-text" href="#!" data-activates="dropdown6">Account Menu<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
