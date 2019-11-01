@@ -1400,3 +1400,8 @@ tr.ppom-option-price-list.ppom-option-total-price{
 	font-family: material icons !important;
 	content: 'close' !important;
 }
+.woocommerce-store-notice__dismiss-link:after {
+	padding-left: 10px !important;
+	font-family: material icons !important;
+	content: 'close' !important;
+}
