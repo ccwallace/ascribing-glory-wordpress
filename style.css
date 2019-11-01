@@ -1394,19 +1394,14 @@ tr.ppom-option-price-list.ppom-option-total-price{
 	color: black !important;
 }
 .woocommerce-store-notice__dismiss-link{
-	text-indent: -9999px;
-  line-height: 0; /* Collapse the original line */
+	display:none;
 }
 .woocommerce-store-notice__dismiss-link:after {
-
-		content: "close";
-	  text-indent: 0;
-	  display: block;
-	  line-height: initial; /* New content takes up original line height */
-
+	display: block;
+  position: absolute;
 	background-color: lightseagreen !important;
 	color: black !important;
 	padding-left: 10px !important;
 	font-family: material icons !important;
-
+	content: 'close' !important;
 }
