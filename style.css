@@ -1390,10 +1390,10 @@ tr.ppom-option-price-list.ppom-option-total-price{
 	display: none !important;
 }
 .woocommerce-store-notice{
-	background-color: lightseagreen;
-	color: black;
+	background-color: lightseagreen !important;
+	color: black !important;
 }
 .woocommerce-store-notice__dismiss-link{
-	background-color: lightseagreen;
-	color: black;
+	background-color: lightseagreen !important;
+	color: black !important;
 }
