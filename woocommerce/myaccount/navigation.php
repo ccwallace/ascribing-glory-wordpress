@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 do_action( 'woocommerce_before_account_navigation' );
 ?>
 
-<nav class="z-depth-0 transparent">
+<nav class="z-depth-0 transparent hide-on-med-and-down">
 	<div class="nav-wrapper">
 		<div class="nav-center">
 			<ul>
@@ -34,6 +34,21 @@ do_action( 'woocommerce_before_account_navigation' );
 			</ul>
 		</div>
 	</div>
+</nav>
+<!-- Dropdown Structure -->
+<ul id="dropdown6" class="dropdown-content">
+	<?php foreach ( wc_get_account_menu_items() as $endpoint => $label ) : ?>
+		<li class="<?php echo wc_get_account_menu_item_classes( $endpoint ); ?>">
+			<a href="<?php echo esc_url( wc_get_account_endpoint_url( $endpoint ) ); ?>"><?php echo esc_html( $label ); ?></a>
+		</li>
+	<?php endforeach; ?>
+</ul>
+<nav class = "hide-on-large-only">
+  <div class="nav-wrapper">
+    <ul class="hide-on-med-and-down">
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown6">Account Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+  </div>
 </nav>
 
 <?php do_action( 'woocommerce_after_account_navigation' ); ?>
