@@ -1398,3 +1398,7 @@ tr.ppom-option-price-list.ppom-option-total-price{
 	color: black !important;
 	padding-left: 10px !important;
 }
+
+fieldset {
+	border: none !important;
+}
