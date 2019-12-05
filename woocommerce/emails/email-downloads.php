@@ -46,7 +46,7 @@ $text_align = is_rtl() ? 'right' : 'left';
 								break;
 							case 'download-file':
 								?>
-								<a href="<?php echo esc_url( $download['download_url'] ); ?>" class="btn"><?php echo esc_html( $download['download_name'] ); ?></a>
+								<a href="<?php echo esc_url( $download['download_url'] ); ?>" class="woocommerce-MyAccount-downloads-file button alt"><?php echo esc_html( $download['download_name'] ); ?></a>
 								<?php
 								break;
 							case 'download-expires':
