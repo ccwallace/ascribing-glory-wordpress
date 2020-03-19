@@ -1402,3 +1402,7 @@ tr.ppom-option-price-list.ppom-option-total-price{
 fieldset {
 	border: none !important;
 }
+
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected{
+	background-color: none !important;
+}

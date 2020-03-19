@@ -67,9 +67,9 @@
             <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown3">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/workshops">WORKSHOPS</a></li>
             <li><a class="black-text" href="/shop-main">SHOP</a></li>
-						<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
+			<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
-						<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
+			<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
           </ul>
         </div>
       </div>
