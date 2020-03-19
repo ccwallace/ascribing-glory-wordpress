@@ -58,16 +58,16 @@
 			<li><a href="/envelope-addressing" class="black-text">ENVELOPE ADDRESSING</a></li>
 		</ul>
 		<ul id="dropdown6" class="dropdown-content">
-			<li><a href="https://ascribingglory.com/products-all" class="black-text">ALL</a></li>
-			<li><a href="/https://ascribingglory.com/shop-art-prints" class="black-text">Art Prints</a></li>
-			<li><a href="https://ascribingglory.com/shop-greeting-cards" class="black-text">Greeting Cards</a></li>
-			<li><a href="https://ascribingglory.com/shop-stickers" class="black-text">Stickers</a></li>
-			<li><a href="http://ascribingglory.com/shop-christmas" class="black-text">Christmas</a></li>
-			<li><a href="https://www.ascribingglory.com/product/hello-mello/" class="black-text">Hello Mello</a></li>
-			<li><a href="https://ascribingglory.com/shop-calendar" class="black-text">Calendar</a></li>
-			<li><a href="https://ascribingglory.com/shop-wrapping-paper/" class="black-text">Wrapping Paper</a></li>
-			<li><a href="http://www.ascribingglory.com/shop-custom/" class="black-text">Custom</a></li>
-			<li><a href="https://ascribingglory.com/shop-tshirts" class="black-text">Tshirts</a></li>
+			<li><a href="https://ascribingglory.com/products-all" class="black-text center-align">ALL</a></li>
+			<li><a href="/https://ascribingglory.com/shop-art-prints" class="black-text center-align">Art Prints</a></li>
+			<li><a href="https://ascribingglory.com/shop-greeting-cards" class="black-text center-align">Greeting Cards</a></li>
+			<li><a href="https://ascribingglory.com/shop-stickers" class="black-text center-align">Stickers</a></li>
+			<li><a href="http://ascribingglory.com/shop-christmas" class="black-text center-align">Christmas</a></li>
+			<li><a href="https://www.ascribingglory.com/product/hello-mello/" class="black-text center-align">Hello Mello</a></li>
+			<li><a href="https://ascribingglory.com/shop-calendar" class="black-text center-align">Calendar</a></li>
+			<li><a href="https://ascribingglory.com/shop-wrapping-paper/" class="black-text center-align">Wrapping Paper</a></li>
+			<li><a href="http://www.ascribingglory.com/shop-custom/" class="black-text center-align">Custom</a></li>
+			<li><a href="https://ascribingglory.com/shop-tshirts" class="black-text center-align">Tshirts</a></li>
 		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
