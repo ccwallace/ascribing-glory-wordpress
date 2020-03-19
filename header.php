@@ -57,6 +57,18 @@
 			<li><a href="/semi-custom-invitations" class="black-text">SEMI-CUSTOM INVITATIONS</a></li>
 			<li><a href="/envelope-addressing" class="black-text">ENVELOPE ADDRESSING</a></li>
 		</ul>
+		<ul id="dropdown6" class="dropdown-content">
+			<li><a href="https://ascribingglory.com/products-all" class="black-text">ALL</a></li>
+			<li><a href="/https://ascribingglory.com/shop-art-prints" class="black-text">Art Prints</a></li>
+			<li><a href="https://ascribingglory.com/shop-greeting-cards" class="black-text">Greeting Cards</a></li>
+			<li><a href="https://ascribingglory.com/shop-stickers" class="black-text">Stickers</a></li>
+			<li><a href="http://ascribingglory.com/shop-christmas" class="black-text">Christmas</a></li>
+			<li><a href="https://www.ascribingglory.com/product/hello-mello/" class="black-text">Hello Mello</a></li>
+			<li><a href="https://ascribingglory.com/shop-calendar" class="black-text">Calendar</a></li>
+			<li><a href="https://ascribingglory.com/shop-wrapping-paper/" class="black-text">Wrapping Paper</a></li>
+			<li><a href="http://www.ascribingglory.com/shop-custom/" class="black-text">Custom</a></li>
+			<li><a href="https://ascribingglory.com/shop-tshirts" class="black-text">Tshirts</a></li>
+		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
         <!--<a href="#" data-activates="mobile-demo" class="button-collapse fixed right"><i class="material-icons black-text">menu</i></a>-->
@@ -66,7 +78,8 @@
             <li><a class="black-text" href="/about">ABOUT</a></li>
             <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown3">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/workshops">WORKSHOPS</a></li>
-            <li><a class="black-text" href="/shop-main">SHOP</a></li>
+            <!--<li><a class="black-text" href="/shop-main">SHOP</a></li>-->
+			<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown6">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 			<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
 			<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
