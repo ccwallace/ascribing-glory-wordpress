@@ -33,7 +33,7 @@
 					<ul class="hide-on-small-only">
 						<li><a class="black-text" href="/home">HOME</a></li>
 						<li><a class="black-text" href="/about">ABOUT</a></li>
-						<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown5">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+						<li><a class="dropdown-button black-text" data-beloworigin="false" href="#!" data-activates="dropdown5">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 						<li><a class="black-text" href="/workshops">WORKSHOPS</a></li>
 						<li><a class="black-text" href="/shop-main">SHOP</a></li>
 						<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
@@ -45,7 +45,7 @@
 								<ul class="hide-on-med-and-up">
 									<li><a class="black-text" href="/home">HOME</a></li>
 									<li><a class="black-text" href="/about">ABOUT</a></li>
-									<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown4">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+									<li><a class="dropdown-button black-text" data-beloworigin="false" href="#!" data-activates="dropdown4">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 								</ul>
 							</div>
 						</div>
