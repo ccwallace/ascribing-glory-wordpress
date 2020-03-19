@@ -91,7 +91,7 @@
 			<ul class="side-nav right-aligned" id="mobile-demo">
 				<li><a href="/home">HOME</a></li>
 				<li><a href="/about">ABOUT</a></li>
-				<li><a class="dropdown-button black-text" data-beloworigin="true" coverTrigger="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button black-text" data-beloworigin="true" data-coverTrigger="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="/shop-workshops">WORKSHOPS</a></li>
 				<li><a href="/shop-main">SHOP</a></li>
 				<li><a href="/my-account">MY ACCOUNT</a></li>
