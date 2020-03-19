@@ -79,7 +79,7 @@
             <li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown3">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="black-text" href="/workshops">WORKSHOPS</a></li>
 			<!-- <li><a class="black-text" href="/shop-main">SHOP</a></li> -->
-			<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown6">SHOP<i class="material-icons right">arrow_drop_down</i></a></li>
+			<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-coverTrigger="true" data-activates="dropdown6">SHOP<i class="material-icons right">arrow_drop_down</i></a></li>
 			<li><a class="black-text" href="/my-account">MY ACCOUNT</a></li>
             <li><a class="black-text" href="/contact">CONTACT</a></li>
 			<li><a class="black-text material-icons" href="/cart">shopping_cart</a></li>
@@ -91,7 +91,7 @@
 			<ul class="side-nav right-aligned" id="mobile-demo">
 				<li><a href="/home">HOME</a></li>
 				<li><a href="/about">ABOUT</a></li>
-				<li><a class="dropdown-button black-text" data-beloworigin="true" data-coverTrigger="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
+				<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown2">WEDDINGS<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="/shop-workshops">WORKSHOPS</a></li>
 				<li><a href="/shop-main">SHOP</a></li>
 				<li><a href="/my-account">MY ACCOUNT</a></li>
