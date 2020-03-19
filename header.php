@@ -84,10 +84,10 @@
 				<li><a class="black-text" href="/shop-main">SHOP</a></li>
 			<?php endif; ?>
 
-			<?php if((strpos(home_url($wp->request), 'shop') == false || strpos(home_url($wp->request), 'products') == false))?>
+			
 			<!-- ONLY SHOW ON SHOP PAGES -->
 				<li><a class="dropdown-button black-text" data-beloworigin="true" href="#!" data-activates="dropdown6">SHOP<i class="material-icons right">arrow_drop_down</i></a></li>
-			<?php endif; ?>
+			
 			
 			
 			
