@@ -23,7 +23,7 @@
       // save this id for later comparison with sub-menu items
       $parent_id = $item->ID;
       ?>
-      <li class="item"><a href="<?php echo $link; ?>" class="black-text"><?php echo $title; ?></a>
+      <li class="item"><a href="<?php echo $link; ?>"><?php echo $title; ?></a>
       <?php endif; ?>
       <?php if ( $parent_id == $item->menu_item_parent ): ?>
         <?php if ( !$submenu ): $submenu = true; ?>
