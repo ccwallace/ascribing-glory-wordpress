@@ -29,7 +29,7 @@
         <?php if ( !$submenu ): $submenu = true; ?>
           <ul>
           <?php endif; ?>
-            <li class="item"><a href="<?php echo $link; ?>" class="black-text" style="text-transform: uppercase;"><?php echo $title; ?></a></li>
+            <li class="item"><a href="<?php echo $link; ?>" style="text-transform: uppercase; color: #8cdbd4;"><?php echo $title; ?></a></li>
           <?php if ( $menuitems[ $count + 1 ]->menu_item_parent != $parent_id && $submenu ): ?>
           </ul>
           <?php $submenu = false; endif; ?>
@@ -61,7 +61,7 @@ $parent_id = $item->ID;
   <?php if ( !$submenu ): $submenu = true; ?>
     <ul>
     <?php endif; ?>
-      <li class="item"><a href="<?php echo $link; ?>" class="black-text"><?php echo $title; ?></a></li>
+      <li class="item"><a href="<?php echo $link; ?>" style="color: #8cdbd4"><?php echo $title; ?></a></li>
     <?php if ( $menuitems[ $count + 1 ]->menu_item_parent != $parent_id && $submenu ): ?>
     </ul>
     <?php $submenu = false; endif; ?>
