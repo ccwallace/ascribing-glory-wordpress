@@ -1406,3 +1406,6 @@ fieldset {
 .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected{
 	background-color: transparent !important;
 }
+#yith_wcps_info_cart{
+	visibility: hidden !important;
+}
