@@ -10,9 +10,9 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see 	https://docs.woocommerce.com/document/template-structure/
+ * @see     https://docs.woocommerce.com/document/template-structure/
  * @package WooCommerce/Templates
- * @version 2.4.0
+ * @version 3.8.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -23,6 +23,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Filter tabs and allow third parties to add their own.
  *
  * Each tab is an array containing title, callback and priority.
+ *
  * @see woocommerce_default_product_tabs()
  */
 
