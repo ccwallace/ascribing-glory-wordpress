@@ -63,7 +63,7 @@
 			<li><a href="/shop-greeting-cards/" class="black-text center-align">Greeting Cards</a></li>
 			<li><a href="/shop-stickers/" class="black-text center-align">Stickers</a></li>
 			<li><a href="/shop-spring/" class="black-text center-align">Spring</a></li>
-			<li><a href="/shop-moms/" class="black-text center-align">Mother's Day</a></li>
+			<li><a href="/shop-dads/" class="black-text center-align">Father's Day</a></li>
 			<li><a href="/product/hello-mello/" class="black-text center-align">Hello Mello</a></li>
 			<li><a href="/product/calendar-2020/" class="black-text center-align">Calendar</a></li>
 			<li><a href="/shop-wrapping-paper/" class="black-text center-align">Wrapping Paper</a></li>
