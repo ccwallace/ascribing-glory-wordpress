@@ -62,9 +62,9 @@
 			<li><a href="/shop-art-prints/" class="black-text center-align">Art Prints</a></li>
 			<li><a href="/shop-greeting-cards/" class="black-text center-align">Greeting Cards</a></li>
 			<li><a href="/shop-stickers/" class="black-text center-align">Stickers</a></li>
-			<li><a href="/shop-fall/" class="black-text center-align">Fall</a></li>
+			<li><a href="/shop-christmas/" class="black-text center-align">Christmas</a></li>
 			<li><a href="/product/hello-mello/" class="black-text center-align">Hello Mello</a></li>
-			<li><a href="/product/calendar-2020/" class="black-text center-align">Calendar</a></li>
+			<li><a href="/product/calendar-2021/" class="black-text center-align">Calendar</a></li>
 			<li><a href="/shop-wrapping-paper/" class="black-text center-align">Wrapping Paper</a></li>
 			<li><a href="/shop-custom/" class="black-text center-align">Custom</a></li>
 			<li><a href="/shop-tshirts/" class="black-text center-align">Tshirts</a></li>
