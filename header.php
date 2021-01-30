@@ -63,7 +63,7 @@
 			<li><a href="/product/calendar-2021/" class="black-text center-align">Calendar</a></li>
 			<li><a href="/shop-custom/" class="black-text center-align">Custom</a></li>
 			<li><a href="/shop-greeting-cards/" class="black-text center-align">Greeting Cards</a></li>
-			<li><a href="/shop-stationary/" class="black-text center-align">Stationary</a></li>
+			<li><a href="/shop-stationery/" class="black-text center-align">Stationery</a></li>
 			<li><a href="/shop-stickers/" class="black-text center-align">Stickers</a></li>
 			<li><a href="/shop-tshirts/" class="black-text center-align">Tshirts</a></li>
 			<li><a href="/shop-valentines/" class="black-text center-align">Valentine's Day</a></li>
