@@ -66,7 +66,7 @@
 			<li><a href="/shop-stationery/" class="black-text center-align">Stationery</a></li>
 			<li><a href="/shop-stickers/" class="black-text center-align">Stickers</a></li>
 			<li><a href="/shop-tshirts/" class="black-text center-align">Tshirts</a></li>
-			<li><a href="/shop-valentines/" class="black-text center-align">Valentine's Day</a></li>
+			<li><a href="/shop-spring-2021/" class="black-text center-align">Spring 2021</a></li>
 		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
