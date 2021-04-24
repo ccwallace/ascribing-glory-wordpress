@@ -59,7 +59,7 @@
 		</ul>
 		<ul id="dropdown6" class="dropdown-content">
 			<li><a href="/products-all/" class="black-text center-align">All</a></li>
-			<li><a href="/shop-mothers-day/" class="black-text center-align">Mother's Day</a></li>
+			<li><a href="/shop-mothers-day-2021/" class="black-text center-align">Mother's Day</a></li>
 			<li><a href="/shop-art-prints/" class="black-text center-align">Art Prints</a></li>
 			<li><a href="/product/calendar-2021/" class="black-text center-align">Calendar</a></li>
 			<li><a href="/shop-custom/" class="black-text center-align">Custom</a></li>
