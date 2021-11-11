@@ -60,14 +60,12 @@
 		<ul id="dropdown6" class="dropdown-content">
 			<li><a href="/products-all/" class="black-text center-align">All</a></li>
 			<li><a href="/shop-fall-winter-2021/" class="black-text center-align">Fall/Winter 2021</a></li>
-			<li><a href="/shop-mothers-day-2021/" class="black-text center-align">Mother's Day</a></li>
 			<li><a href="/shop-art-prints/" class="black-text center-align">Art Prints</a></li>
 			<li><a href="/shop-custom/" class="black-text center-align">Custom</a></li>
 			<li><a href="/shop-greeting-cards/" class="black-text center-align">Greeting Cards</a></li>
 			<li><a href="/shop-stationery/" class="black-text center-align">Stationery</a></li>
 			<li><a href="/shop-stickers/" class="black-text center-align">Stickers</a></li>
 			<li><a href="/shop-tshirts/" class="black-text center-align">Tshirts</a></li>
-			<li><a href="/shop-spring-2021/" class="black-text center-align">Spring 2021</a></li>
 		</ul>
 		<nav class="z-depth-0 transparent hide-on-med-and-down">
       <div class="nav-wrapper">
