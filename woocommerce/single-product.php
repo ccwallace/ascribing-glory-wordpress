@@ -53,7 +53,6 @@ get_header( 'shop' ); ?>
 		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
 		 */
 		do_action( 'woocommerce_after_main_content' );
-		remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 	?>
 
 	<?php
