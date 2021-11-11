@@ -170,6 +170,15 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Redirect WooCommerce Shop URL
+function wpc_shop_url_redirect() {
+    if( is_shop() ){
+        wp_redirect( home_url( '/shop-main/' ) ); // Assign custom internal page here
+        exit();
+    }
+}
+add_action( 'template_redirect', 'wpc_shop_url_redirect' );
+
 function mytheme_add_woocommerce_support() {
     add_theme_support( 'woocommerce' );
 }
