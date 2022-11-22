@@ -59,7 +59,7 @@
 		</ul>
 		<ul id="dropdown6" class="dropdown-content">
 			<li><a href="/products-all/" class="black-text center-align">All</a></li>
-			<li><a href="/shop-fall-winter-2021/" class="black-text center-align">Fall/Winter 2021</a></li>
+			<li><a href="/shop-fall-winter-2022/" class="black-text center-align">Fall/Winter 2022</a></li>
 			<li><a href="/shop-art-prints/" class="black-text center-align">Art Prints</a></li>
 			<li><a href="/shop-custom/" class="black-text center-align">Custom</a></li>
 			<li><a href="/shop-greeting-cards/" class="black-text center-align">Greeting Cards</a></li>
